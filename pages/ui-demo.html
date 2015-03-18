@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js ie ie8"><![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>车蛋o2o管理平台</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/public/stylesheets/ico-caregg-sprite.css" />
+    <link rel="stylesheet" href="/public/stylesheets/base.css" />
+    <link rel="stylesheet" href="/public/stylesheets/font-icon/style.css" />
+    <link rel="stylesheet" href="/public/stylesheets/layout.css" />
+    <link rel="stylesheet" href="/public/stylesheets/common.css" />
+    <link rel="stylesheet" href="/public/javascripts/plugins/dataTables/jquery.dataTables.css"/>
+</head>
+<body>
+<style>
+
+    .header{
+        position:static;
+    }
+    .container{
+        padding-top:20px;
+        height: auto;
+    }
+
+    .demo-wrap {
+        padding: 20px;
+        min-height: 800px;
+    }
+
+    .block {
+        margin-bottom: 20px;
+    }
+
+    .block p {
+        margin-bottom: 5px;
+    }
+
+    .block h4 {
+        margin: 10px 0;
+        padding: 0 0 0 8px;
+        border-left: 3px solid #ccc;
+    }
+
+    .block-title {
+        padding: 5px 10px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        color: #fff;
+        background-color: #5B579F;
+        margin-top: 50px;
+    }
+
+    .block-title-first {
+        margin-top: 0;
+    }
+
+    .block-title h2 {
+        font-size: 14px;
+    }
+
+    .block-title p {
+        font-family: monaco;
+        margin-bottom: 0;
+    }
+
+    .code, code {
+        margin: 10px 0;
+        padding: 5px;
+        background-color: #eee;
+        font-family: monaco;
+    }
+
+    .demo-menu {
+        padding: 10px;
+        background-color: #fff;
+        position: fixed;
+    }
+
+    .demo-menu li {
+        margin-bottom: 10px;
+    }
+
+    .demo-menu a {
+        color: #003399;
+    }
+
+
+    .icon_lists li{
+        float:left;
+        width: 100px;
+        height:150px;
+        text-align: center;
+    }
+    .icon_lists .iconfont{
+        font-size: 42px;
+        line-height: 100px;
+        margin: 10px 0;
+        color:#333;
+        -webkit-transition: font-size 0.25s ease-out 0s;
+        -moz-transition: font-size 0.25s ease-out 0s;
+        transition: font-size 0.25s ease-out 0s;
+
+    }
+    .icon_lists .iconfont:hover{
+        font-size: 100px;
+    }
+
+</style>
+<div class="container fn-clearfix">
+<div class="left-sidebar-2col">
+<div class="left-sidebar-2col-inner">
+
+<div class="demo-wrap">
+
+<!--<h2>Tab 和 文章简介列表</h2>-->
+<div class="block">
+
+    <div class="block-title block-title-first" id="b1">
+        <h2>Tab 和 文章简介列表</h2>
+        <p>caregg-tab-v1 和 caregg-article-intro</p>
+    </div>
+
+    <h4>caregg-tab-v1</h4>
+
+    <div class="caregg-tab-v1"  id="tab-demo-1">
+        <div class="caregg-tab-v1-nav">
+            <ul class="fn-clearfix">
+                <li class="cur"><a href="javascript:;"><span>相关性</span></a></li>
+                <li><a href="javascript:;"><span>最新上传</span></a></li>
+                <li><a href="javascript:;"><span>最多下载</span></a></li>
+                <li><a href="javascript:;"><span>最受好评</span></a></li>
+            </ul>
+        </div>
+
+        <div class="caregg-tab-v1-main">
+            <div class="caregg-tab-v1-switch">
+                <div class="caregg-article-intro">
+                    <div class="hd fn-clearfix">
+                        <div class="title">
+                            <span class="caregg-ico caregg-ico-file-mini-4"></span>
+
+                            <h3><a href=""><strong>UML</strong>基础教程(很全面的教程)</a></h3>
+                        </div>
+                        <div class="extra">
+                            <div class="tree-wrap fn-right">
+                                <span class="caregg-ico caregg-ico-tree-1"></span>
+                            </div>
+
+                            <div class="star-wrap fn-right">
+                                <span>4.0</span>
+                                <span class="caregg-star caregg-star-4"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bd">
+                        <div class="intro">
+                            <p>是一种面向对象的建模语言，它是运用统一的、标准化的标记和定义对软件系统进行面向对象的描述和建模。
+                                这个文档对UML有一个全面的介绍。并有相应的实例说明。</p>
+                        </div>
+                    </div>
+
+                    <div class="ft">
+                        <span>2014-01-13</span>
+                        <span>|</span>
+                        <span>上传人：Shayne</span>
+                    </div>
+                </div>
+                <!--/caregg-article-intro-->
+            </div>
+            <div class="caregg-tab-v1-switch">
+                2
+            </div>
+            <div class="caregg-tab-v1-switch">
+                3
+            </div>
+            <div class="caregg-tab-v1-switch">
+                4
+            </div>
+
+        </div>
+    </div>
+    <!--/caregg-tab-v1-->
+
+
+
+<pre class="code">
+seajs.use('switchable',function(switchable){
+    var tabs = new switchable.Tabs({
+        element : "#tab-demo-1",
+        triggers:'#tab-demo-1 .caregg-tab-v1-nav li',
+        panels : '#tab-demo-1 .caregg-tab-v1-switch',
+        activeTriggerClass : 'cur'
+
+        //triggerType : "click"  默认是mouseover触发，添加这个，是click才触发
+    });
+});
+
+//more: http://aralejs.org/switchable/
+</pre>
+
+    <h4>caregg-tab-v2</h4>
+
+    <div class="caregg-tab-v2" id="tab-demo-2">
+        <div class="caregg-tab-v2-nav">
+            <ul class="fn-clearfix">
+                <li class="cur"><a href="javascript:;"><span>个人</span></a></li>
+                <li><a href="javascript:;"><span>群组</span></a></li>
+            </ul>
+        </div>
+        <div class="caregg-tab-v2-main">
+            <div class="caregg-tab-v2-switch">
+                个人
+            </div>
+            <div class="caregg-tab-v2-switch">
+                群组
+            </div>
+        </div>
+    </div>
+<pre class="code">
+seajs.use('switchable',function(switchable){
+    var tabs = new switchable.Tabs({
+        element : "#tab-demo-2",
+        triggers:'#tab-demo-2 .caregg-tab-v2-nav li',
+        panels : '#tab-demo-2 .caregg-tab-v2-switch',
+        activeTriggerClass : 'cur'
+    });
+});
+</pre>
+
+    <h4>caregg-tab-v3</h4>
+
+    <div class="caregg-tab-v3" id="tab-demo-3">
+        <div class="caregg-tab-v3-nav">
+            <ul class="fn-clearfix">
+                <li class="cur">本月最佳</li>
+                <li>年度最佳</li>
+            </ul>
+        </div>
+        <div class="caregg-tab-v3-main">
+            <div class="caregg-tab-v3-switch">
+                本月最佳
+            </div>
+            <div class="caregg-tab-v3-switch">
+                年度最佳
+            </div>
+        </div>
+    </div>
+<pre class="code">
+seajs.use('switchable',function(switchable){
+    var tabs = new switchable.Tabs({
+        element : "#tab-demo-3",
+        triggers:'#tab-demo-3 .caregg-tab-v3-nav li',
+        panels : '#tab-demo-3 .caregg-tab-v3-switch',
+        activeTriggerClass : 'cur'
+    });
+});
+</pre>
+    <h4>caregg-tab-v4</h4>
+    <div class="caregg-tab-v4"  id="tab-demo-4" >
+        <div class="caregg-tab-v4-nav">
+            <ul class="best-practitioner">
+                <li class="cur"><a href="##">不限</a></li>
+                <li><a href="##">系统玩法</a></li>
+                <li><a href="##">活动玩法</a></li>
+                <li><a href="##">电子库</a></li>
+                <li><a href="##">系统玩法对比</a></li>
+                <li><a href="##">活动玩法对比</a></li>
+            </ul>
+        </div>
+        <div class="caregg-tab-v4-main">
+
+            <div class="caregg-tab-v4-switch">
+                不限
+            </div>
+            <div class="caregg-tab-v4-switch">
+                系统玩法
+            </div>
+            <div class="caregg-tab-v4-switch">
+                电子库
+            </div>
+            <div class="caregg-tab-v4-switch">
+                系统玩法对比
+            </div>
+            <div class="caregg-tab-v4-switch">
+                活动玩法对比
+            </div>
+            <div class="caregg-tab-v4-switch">
+                年度最佳6
+            </div>
+
+        </div>
+    </div>
+
+<pre class="code">
+seajs.use('switchable',function(switchable){
+    var tabs = new switchable.Tabs({
+        element : "#tab-demo-4",
+        triggers:'#tab-demo-4 .caregg-tab-v4-nav li',
+        panels : '#tab-demo-4 .caregg-tab-v4-switch',
+        activeTriggerClass : 'cur'
+    });
+});
+</pre>
+
+    <h4>caregg-tab-v7</h4>
+    <div class="caregg-tab-v4"  id="tab-demo-7" >
+        <div class="caregg-tab-v7-nav">
+            <ul class="best-practitioner">
+                <li class="cur"><a href="##">首页</a></li>
+                <li><a href="##">消息</a></li>
+                <li><a href="##">业务</a></li>
+            </ul>
+        </div>
+        <div class="caregg-tab-v7-main">
+
+            <div class="caregg-tab-v7-switch">
+                首页
+            </div>
+            <div class="caregg-tab-v7-switch">
+                消息
+            </div>
+            <div class="caregg-tab-v7-switch">
+                业务
+            </div>
+
+        </div>
+    </div>
+
+<pre class="code">
+seajs.use('switchable',function(switchable){
+    var tabs = new switchable.Tabs({
+        element : "#tab-demo-7",
+        triggers:'#tab-demo-7 .caregg-tab-v7-nav li',
+        panels : '#tab-demo-7 .caregg-tab-v7-switch',
+        activeTriggerClass : 'cur'
+    });
+});
+</pre>
+
+</div>
+
+<!--/block-->
+
+<!--<h2>弹出框</h2>-->
+<div class="block">
+    <div class="block-title" id="demo-tips">
+        <h2>tip 提示框</h2>
+
+        <p>caregg-dialog-v1</p>
+    </div>
+    <a class="caregg-btn" id="caregg-demo-tip">提示框</a>
+    <pre class="code">
+    //提示框
+    $("#caregg-demo-tip").click(function(){
+        // content 提示内容 timeout 显示时间(毫秒)
+        CarEgg.utils.tip.open("提示框,自动关闭！",1000);
+    });
+    </pre>
+</div>
+<!--/block-->
+
+<!--<h2>弹出框</h2>-->
+<div class="block">
+    <div class="block-title" id="demo-dialog">
+        <h2>Dialog 弹出框</h2>
+
+        <p>caregg-dialog-v1</p>
+    </div>
+    <a class="caregg-btn" id="caregg-dialog-v1-demo1">弹出框</a>
+    <pre class="code">
+    //弹出框
+    var Dialog = require('dialog');
+    var o = new Dialog({
+        trigger: '#caregg-dialog-v1-demo1',
+        content: '<div>这是 dialog 容器的内容</div>'
+    });
+    </pre>
+    <a class="caregg-btn" id="caregg-dialog-v1-demo2">确认框</a>
+    <pre class="code">
+    //确认框
+    var cb = new Dialog.ConfirmBox({
+    trigger: '#caregg-dialog-v1-demo2',
+    title: '我真是标题啊',
+    message: '我是内容 我是内容',
+    onConfirm: function() {
+    var that = this;
+    this.set('title', '三秒后关闭对话框');
+    this.set('message', '不要啊！！');
+    setTimeout(function() {
+    that.hide();
+    }, 3000);
+    }
+    });
+    </pre>
+
+</div>
+<!--/block-->
+
+
+<!--<h2>日期选择器</h2>-->
+<div class="block">
+    <div class="block-title" id="demo-datepicker">
+        <h2>Calendar 日期选择器</h2>
+
+        <p>Calendar</p>
+    </div>
+    <div class="caregg-list-v1 text-size14">
+        <label>开始日期</label><input name="startDate" id="startDate"> <label>结束日期</label><input name="endDate" id="endDate">
+    </div>
+        <pre class="code">
+        //时间选择器
+        var t1 = moment(Date.now()-90*24*60*60*1000).format("YYYY_MM-DD");//当前日期减90天
+        var t2 = moment(Date.now()+90*24*60*60*1000).format("YYYY-MM-DD");//当前日期加90天
+        var c1 = new Calendar({trigger: '#startDate', range: [t1, null]})
+        var c2 = new Calendar({trigger: '#endDate', range: [null, t2]})
+        console.log(c1.get('focus').format('YYYY-MM-DD'), c2.get('focus').format('YYYY-MM-DD'));
+
+        c1.on('selectDate', function(date) {
+            console.log(c1.get('focus').format('YYYY-MM-DD'), c2.get('focus').format('YYYY-MM-DD'));
+            c2.range([date, t2]);
+        });
+
+        c2.on('selectDate', function(date) {
+            c1.range([t1, date]);
+        });
+
+        </pre>
+
+</div>
+<!--/block-->
+
+<!--<h2>List 列表</h2>-->
+<div class="block">
+    <div class="block-title" id="b2">
+        <h2>List 列表</h2>
+
+        <p>caregg-list-v1</p>
+    </div>
+
+    <div class="caregg-list-v1 text-size14">
+        <ul>
+            <li>
+                <a href="">知识管理的螺旋理论</a>
+            </li>
+            <li>
+                <a href="">Java从入门到精通</a>
+            </li>
+            <li>
+                <a href="">JavaScript从入门到精通</a>
+            </li>
+            <li>
+                <a href="">Node.js开发指南</a>
+            </li>
+            <li>
+                <a href="">HTML5开发指</a>
+            </li>
+        </ul>
+    </div>
+
+<pre class="code">
+1）使用 text-size12, text-size14, text-size16 来改变字体大小(默认12px)
+2）如果想修改颜色，可以添加单独class来覆盖默认颜色
+3）不推荐去掉hover时的下划线
+</pre>
+
+</div>
+<!--/block-->
+
+<!--<h2>Btn 按钮</h2>-->
+<div class="block">
+    <div class="block-title" id="b3">
+        <h2>Btn 按钮</h2>
+
+        <p>caregg-btn</p>
+    </div>
+
+    <h4>button 标签(推荐!)</h4>
+
+    <p>
+        <button type="button" class="caregg-btn">默认</button>
+        <button type="button" class="caregg-btn caregg-btn-success">成功</button>
+        <button type="button" class="caregg-btn caregg-btn-info">低调</button>
+        <button type="button" class="caregg-btn caregg-btn-warning">警告</button>
+        <button type="button" class="caregg-btn caregg-btn-hot">热门</button>
+        <button type="button" disabled="disabled" class="caregg-btn caregg-btn-hot">禁用</button>
+    </p>
+    <h4>a 标签</h4>
+
+    <p>
+        <a href="javascript:;" class="caregg-btn">默认</a>
+        <a href="javascript:;" class="caregg-btn caregg-btn-disabled">禁用</a>
+    </p>
+    <h4>input type=button 标签</h4>
+
+    <p>
+        <input type="button" class="caregg-btn" value="默认"/>
+        <input disabled="disabled" type="button" class="caregg-btn" value="禁用"/>
+    </p>
+
+    <h4>按钮大小</h4>
+
+    <p>
+        <button type="button" class="caregg-btn caregg-btn-xsmall">最小</button>
+    </p>
+    <p>
+        <button type="button" class="caregg-btn caregg-btn-small">比较小</button>
+    </p>
+    <p>
+        <button type="button" class="caregg-btn">正常大小</button>
+    </p>
+    <p>
+        <button type="button" class="caregg-btn caregg-btn-big">确定保存</button>
+        <button type="button" class="caregg-btn caregg-btn-info caregg-btn-big">取消</button>
+    </p>
+
+    <h4>块按钮 （限制于父亲节点的内宽度，可以用于多种场合）</h4>
+
+    <div style="width: 200px;">
+        <p>
+            <button type="button" class="caregg-btn caregg-btn-block">button 按钮</button>
+        </p>
+        <p><a href="javascript:;" class="caregg-btn caregg-btn-block">a 按钮</a></p>
+
+        <p><input type="button" class="caregg-btn caregg-btn-block" value="input 按钮"/></p>
+    </div>
+
+    <h4>变形按钮 （大家自己发挥想象吧）</h4>
+
+    <p>
+        <button type="button" class="caregg-btn caregg-btn-hot">添加 <span class="icon-plus"></span></button>
+        <button type="button" class="caregg-btn caregg-btn-success">收藏 <span class="icon-star"></span></button>
+    </p>
+    <p>
+        <button type="button" class="caregg-btn caregg-btn-big">编辑 <span class="icon-pencil"></span></button>
+        <button type="button" class="caregg-btn caregg-btn-big caregg-btn-info">取消 <span class="icon-cross"></span></button>
+    </p>
+
+<pre class="code">
+1) 请查看源码看示例
+2) 如果设计出现了上面没有的按钮，比如宽度更宽等，请使用 <code>caregg-btn-block</code>
+</pre>
+
+</div>
+<!--/block-->
+
+<!--panel 面板-->
+<div class="block">
+    <div class="block-title" id="b4">
+        <h2>Panel 面板</h2>
+
+        <p>caregg-panel-v1</p>
+    </div>
+
+
+    <div style="width: 400px">
+
+        <h4>caregg-panel-v1 正常面板</h4>
+
+        <div class="caregg-panel-v1">
+            <div class="caregg-panel-hd">
+                <div class="title">
+                    <h3>知识贡献榜</h3>
+                </div>
+            </div>
+
+            <div class="caregg-panel-bd">
+                <p>这里是内容这里是内容</p>
+
+                <p>这里是内容</p>
+            </div>
+        </div>
+        <br/>
+
+        <h4>caregg-panel-v1 caregg-panel-v1-titleline 标题带下划线</h4>
+
+        <div class="caregg-panel-v1 caregg-panel-v1-titleline">
+            <div class="caregg-panel-hd">
+                <div class="title">
+                    <h3>知识贡献榜</h3>
+                </div>
+            </div>
+
+            <div class="caregg-panel-bd">
+                <p>这里是内容这里是内容</p>
+
+                <p>这里是内容</p>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+<!--/block-->
+
+
+<!--面包屑-->
+<div class="block">
+    <div class="block-title" id="b5">
+        <h2>breadcrumb 面包屑</h2>
+
+        <p>caregg-breadcrumb</p>
+    </div>
+
+    <div class="caregg-breadcrumb">
+        <ol class="fn-clearfix">
+            <li><a href="">首页</a></li>
+            <li><a href="">知识管理</a></li>
+            <li class="active"><span>UML简介</span></li>
+        </ol>
+    </div>
+
+    <div class="caregg-breadcrumb">
+        <ol class="fn-clearfix">
+            <li><a href="###">首页</a></li>
+            <li class="long"><a href="###" title="很长的名字很长的名字很长的名字很长的名字">很长的名字很长的名字很长的名字很长的名字</a></li>
+            <li class="active long" title="很长的名字很长的名字很长的名字很长的名字"><span>很长的名字很长的名字很长的名字很长的名字</span></li>
+        </ol>
+    </div>
+
+</div>
+<!--/block-->
+<!--气泡-->
+<style>
+    .caregg .caregg-bubble{
+        margin-bottom: 10px;
+    }
+</style>
+<div class="block caregg">
+    <div class="block-title" id="b5.5">
+        <h2>bubble 气泡</h2>
+
+        <p>caregg-bubble-v1</p>
+    </div>
+
+    <div class="caregg-bubble caregg-bubble-top">
+        <i class="caregg-bubble-spike"></i>
+        上
+    </div>
+    <div class="caregg-bubble caregg-bubble-right">
+        <i class="caregg-bubble-spike"></i>
+        右
+    </div>
+    <div class="caregg-bubble caregg-bubble-bottom">
+        <i class="caregg-bubble-spike"></i>
+        下
+    </div>
+    <div class="caregg-bubble caregg-bubble-left">
+        <i class="caregg-bubble-spike"></i>
+        左
+    </div>
+            <pre class="code">
+1）使用 .caregg-bubble-top(left、ritht、bottom) .caregg-bubble-spike {top(left、ritht、bottom): 80px;} 来改变箭头的位置
+2）如果想修改颜色:
+   .caregg-bubble {border-color: red;}
+   .caregg-bubble-top(left、ritht、bottom) .caregg-bubble-spike {border-top(left、ritht、bottom)-color: red;}
+</pre>
+</div>
+<!--/block-->
+
+<!--form 表单排列-->
+<div class="block fn-clearfix">
+    <div class="block-title" id="b7">
+        <h2>form 表单排列</h2>
+
+        <p>caregg-form</p>
+    </div>
+
+    <h4>默认表单</h4>
+
+    <div class="caregg-form">
+        <div class="caregg-form-group">
+            <label class="caregg-form-label" for="">任务内容</label>
+
+            <div class="caregg-form-content">
+                <textarea name="" id="" cols="60" rows="4"></textarea>
+            </div>
+        </div>
+
+        <div class="caregg-form-group">
+            <label class="caregg-form-label" for="">任务执行人</label>
+
+            <div class="caregg-form-content">
+                <input type="text"/>
+            </div>
+        </div>
+
+        <div class="caregg-form-group">
+            <label class="caregg-form-label" for="">截至时间</label>
+
+            <div class="caregg-form-content">
+                <input type="text"/>
+            </div>
+        </div>
+        <div class="caregg-form-group">
+            <div class="caregg-form-content">
+                <button type="button" class="caregg-btn caregg-btn-big">确认提交</button>
+            </div>
+        </div>
+    </div>
+
+
+    <h4>竖表单</h4>
+
+    <div class="caregg-form caregg-form-vertical">
+        <div class="caregg-form-group">
+            <label class="caregg-form-label" for="">任务内容</label>
+
+            <div class="caregg-form-content">
+                <textarea name="" id="" cols="60" rows="4"></textarea>
+            </div>
+        </div>
+
+        <div class="caregg-form-group">
+            <label class="caregg-form-label" for="">任务执行人</label>
+
+            <div class="caregg-form-content">
+                <input type="text"/>
+            </div>
+        </div>
+
+        <div class="caregg-form-group">
+            <label class="caregg-form-label" for="">截至时间</label>
+
+            <div class="caregg-form-content">
+                <input type="text"/>
+            </div>
+        </div>
+
+        <div class="caregg-form-group">
+            <div class="caregg-form-content">
+                <button type="button" class="caregg-btn caregg-btn-big">确认提交</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/block-->
+
+
+<!--翻页-->
+<div class="block">
+    <div class="block-title" id="b8">
+        <h2>page 翻页 (小翻页)</h2>
+
+        <p>caregg-page-v2</p>
+    </div>
+
+    <div style="padding: 10px 0;">
+        <div class="caregg-page-v2">
+            <a href="javascript:;" class="prev-btn btn-disabled"></a>
+            <ol>
+                <li><span>1</span></li>
+                <li><a href="javascript:;">2</a></li>
+                <li><a href="javascript:;">3</a></li>
+                <li><a href="javascript:;">4</a></li>
+                <li><a href="javascript:;">5</a></li>
+            </ol>
+            <a href="javascript:;" class="next-btn"></a>
+        </div>
+    </div>
+
+</div>
+<!--/block-->
+
+
+<!--翻页-->
+<div class="block">
+    <div class="block-title" id="b9">
+        <h2>page 翻页 (小翻页, 一般是放在右上角标题)</h2>
+
+        <p>caregg-page-v3</p>
+    </div>
+
+    <div style="padding: 10px 0;">
+        <div class="caregg-page-v3">
+            <div class="num">
+                <span class="cur select">1</span>/<span class="max">3</span>
+            </div>
+            <a href="javascript:;" class="prev-btn btn-disabled"></a>
+            <a href="javascript:;" class="next-btn"></a>
+        </div>
+    </div>
+
+</div>
+<!--/block-->
+
+<!--sprite-->
+<style type="text/css">
+    .caregg-ico-wrap {
+        margin-bottom: 15px;
+    }
+
+    .caregg-ico-wrap h4 {
+        background: #fff;
+        margin-bottom: 5px;
+        border-left: 0 none;
+        padding: 0;
+    }
+
+    .caregg-ico-arrow-wrap, .caregg-ico-mini-wrap {
+        background: #eee;
+    }
+</style>
+<div class="block">
+    <div class="block-title" id="b10">
+        <h2>sprite 雪碧图标</h2>
+
+        <p>caregg-ico</p>
+    </div>
+
+    <div style="padding: 10px 0;">
+
+        <div class="caregg-ico-wrap caregg-ico-menu-wrap">
+            <h4>左侧导航菜单</h4>
+            <span class="caregg-ico caregg-ico-menu-1"></span>
+            <span class="caregg-ico caregg-ico-menu-2"></span>
+            <span class="caregg-ico caregg-ico-menu-3"></span>
+            <span class="caregg-ico caregg-ico-menu-4"></span>
+            <span class="caregg-ico caregg-ico-menu-5"></span>
+            <span class="caregg-ico caregg-ico-menu-6"></span>
+            <span class="caregg-ico caregg-ico-menu-7"></span>
+            <span class="caregg-ico caregg-ico-menu-8"></span>
+            <span class="caregg-ico caregg-ico-menu-9"></span>
+        </div>
+
+    </div>
+
+</div>
+<!--/block-->
+
+
+<!--iconfont图标-->
+<div class="block">
+
+    <div class="block-title" id="b11">
+        <h2>iconfont图标</h2>
+    </div>
+
+    <div>
+        <span class="icon-home iconfont"></span>
+        <a href="/public/stylesheets/font-icon/demo.html" target="_blank">点击查看详细demo</a>
+        <pre class="code">
+            <p>用法：&lt;span class="icon-home iconfont"&gt;&lt;/span&gt;  指定对应icon图标的class</p>
+            <p>可用样式指定 font-size</p>
+        </pre>
+        <iframe frameborder="0" style="width: 100%; border: 1px solid #ccc; margin-top: 10px;" height="500px" src="/public/stylesheets/font-icon/demo.html"></iframe>
+    </div>
+
+</div>
+<!--/block-->
+
+<!--datatables-->
+<div class="block">
+
+    <div class="block-title" id="b12">
+        <h2>datatables 和 toolbar</h2>
+    </div>
+
+    <div>
+        <pre>
+            <a href="http://www.datatables.net/" target="_blank">DataTable官网</a>
+            <a href="http://datatables.net/reference/api" target="_blank">DataTable API</a>
+        </pre>
+
+        <div class="tool-bar fn-clearfix">
+            <input class="caregg-btn" id="add" type="button" value="新增"/>
+            <input class="caregg-btn" id="delete" type="button" value="删除"/>
+            <span>|</span>
+            <div class="tool-search fn-clearfix">
+                <input class="search-text" type="text"/>
+                <button class="search-btn"><span class="icon-search"></span></button>
+            </div>
+        </div>
+        <br/>
+        <table id="example" class="display" cellspacing="0" width="100%">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+            </thead>
+        </table>
+    </div>
+
+</div>
+<!--/datatables-->
+
+
+</div>
+</div>
+</div>
+
+<div class="right-sidebar-2col">
+    <div class="demo-menu">
+        <ul>
+            <li><a href="#b1">Tab 和 文章简介列表</a></li>
+            <li><a href="#demo-tips">提示框</a></li>
+            <li><a href="#demo-dialog">对话框和确认框</a></li>
+            <li><a href="#demo-datepicker">时间选择器</a></li>
+            <li><a href="#b2">List 列表</a></li>
+            <li><a href="#b3">Btn 按钮</a></li>
+            <li><a href="#b4">Panel 面板</a></li>
+            <li><a href="#b5">breadcrumb 面包屑</a></li>
+            <li><a href="#b5.5">bubble 气泡</a></li>
+            <li><a href="#b7">form 表单排列</a></li>
+            <li><a href="#b8">page 翻页 (小翻页 v2)</a></li>
+            <li><a href="#b9">page 翻页 (小翻页 v3)</a></li>
+            <li><a href="#b10">sprite 雪碧图标</a></li>
+            <li><a href="#b11">iconfont 图标</a></li>
+            <li><a href="#b12">datatables 和 toolbar</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+
+<script src="/public/javascripts/plugins/dataTables/jquery.min.js"></script>
+<script src="/public/javascripts/plugins/dataTables/jquery.dataTables.min.js"></script>
+<script src="/public/javascripts/seajs/2.3.0/dist/sea.js"></script>
+<script src="/public/javascripts/config.js"></script>
+<script>
+    seajs.use('demo');
+</script>
+</body>
+</html>

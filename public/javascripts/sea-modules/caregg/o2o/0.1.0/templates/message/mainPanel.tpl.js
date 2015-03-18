@@ -1,0 +1,1 @@
+define("caregg/o2o/0.1.0/templates/message/mainPanel.tpl",[],'<div class="tip-container"></div>\n<div class="caregg-index-container">消息面板内容</div>');

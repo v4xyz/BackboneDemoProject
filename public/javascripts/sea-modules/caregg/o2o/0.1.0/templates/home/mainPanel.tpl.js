@@ -1,0 +1,1 @@
+define("caregg/o2o/0.1.0/templates/home/mainPanel.tpl",[],'<div class="tip-container">上次登录时间:   2014-12-31  12:25:39</div>\n<div class="caregg-index-container">主页面板内容</div>');

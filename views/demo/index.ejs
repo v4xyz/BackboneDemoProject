@@ -1,0 +1,772 @@
+<%- partial('common/head.ejs', {title: '登录 - 车蛋o2o系统'}) %>
+<body>
+<style>
+
+    .header{
+        position:static;
+    }
+    .container{
+        padding-top:20px;
+    }
+
+    .demo-wrap {
+        padding: 20px;
+        min-height: 800px;
+    }
+
+    .block {
+        margin-bottom: 20px;
+    }
+
+    .block p {
+        margin-bottom: 5px;
+    }
+
+    .block h4 {
+        margin: 10px 0;
+        padding: 0 0 0 8px;
+        border-left: 3px solid #ccc;
+    }
+
+    .block-title {
+        padding: 5px 10px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        color: #fff;
+        background-color: #5B579F;
+        margin-top: 50px;
+    }
+
+    .block-title-first {
+        margin-top: 0;
+    }
+
+    .block-title h2 {
+        font-size: 14px;
+    }
+
+    .block-title p {
+        font-family: monaco;
+        margin-bottom: 0;
+    }
+
+    .code, code {
+        margin: 10px 0;
+        padding: 5px;
+        background-color: #eee;
+        font-family: monaco;
+    }
+
+    .demo-menu {
+        padding: 10px;
+        background-color: #fff;
+        position: fixed;
+    }
+
+    .demo-menu li {
+        margin-bottom: 10px;
+    }
+
+    .demo-menu a {
+        color: #003399;
+    }
+
+
+    .icon_lists li{
+        float:left;
+        width: 100px;
+        height:150px;
+        text-align: center;
+    }
+    .icon_lists .iconfont{
+        font-size: 42px;
+        line-height: 100px;
+        margin: 10px 0;
+        color:#333;
+        -webkit-transition: font-size 0.25s ease-out 0s;
+        -moz-transition: font-size 0.25s ease-out 0s;
+        transition: font-size 0.25s ease-out 0s;
+
+    }
+    .icon_lists .iconfont:hover{
+        font-size: 100px;
+    }
+
+</style>
+
+<div class="container fn-clearfix">
+<div class="left-sidebar-2col">
+<div class="left-sidebar-2col-inner">
+
+<div class="demo-wrap">
+
+<!--<h2>Btn 按钮</h2>-->
+<div class="block">
+    <div class="block-title" id="b3">
+        <h2>Btn 按钮</h2>
+        <p>caregg-btn</p>
+    </div>
+
+    <h4>button 标签(推荐!)</h4>
+
+    <p>
+        <button type="button" class="caregg-btn">默认</button>
+        <button type="button" class="caregg-btn caregg-btn-success">成功</button>
+        <button type="button" class="caregg-btn caregg-btn-info">低调</button>
+        <button type="button" class="caregg-btn caregg-btn-warning">警告</button>
+        <button type="button" class="caregg-btn caregg-btn-hot">热门</button>
+        <button type="button" disabled="disabled" class="caregg-btn caregg-btn-hot">禁用</button>
+    </p>
+    <h4>a 标签</h4>
+
+    <p>
+        <a href="javascript:;" class="caregg-btn">默认</a>
+        <a href="javascript:;" class="caregg-btn caregg-btn-disabled">禁用</a>
+    </p>
+    <h4>input type=button 标签</h4>
+
+    <p>
+        <input type="button" class="caregg-btn" value="默认"/>
+        <input disabled="disabled" type="button" class="caregg-btn" value="禁用"/>
+    </p>
+
+    <h4>按钮大小</h4>
+
+    <p>
+        <button type="button" class="caregg-btn caregg-btn-xsmall">最小</button>
+    </p>
+    <p>
+        <button type="button" class="caregg-btn caregg-btn-small">比较小</button>
+    </p>
+    <p>
+        <button type="button" class="caregg-btn">正常大小</button>
+    </p>
+    <p>
+        <button type="button" class="caregg-btn caregg-btn-big">确定保存</button>
+        <button type="button" class="caregg-btn caregg-btn-info caregg-btn-big">取消</button>
+    </p>
+
+    <h4>块按钮 （限制于父亲节点的内宽度，可以用于多种场合）</h4>
+
+    <div style="width: 200px;">
+        <p>
+            <button type="button" class="caregg-btn caregg-btn-block">button 按钮</button>
+        </p>
+        <p><a href="javascript:;" class="caregg-btn caregg-btn-block">a 按钮</a></p>
+
+        <p><input type="button" class="caregg-btn caregg-btn-block" value="input 按钮"/></p>
+    </div>
+
+    <h4>变形按钮 （大家自己发挥想象吧）</h4>
+
+    <p>
+        <button type="button" class="caregg-btn caregg-btn-hot">添加 <span class="iconfont">&#x3585;</span></button>
+        <button type="button" class="caregg-btn caregg-btn-success">收藏 <span class="iconfont">&#x3575;</span></button>
+    </p>
+    <p>
+        <button type="button" class="caregg-btn caregg-btn-big">确认 <span class="iconfont">&#x34e3;</span></button>
+        <button type="button" class="caregg-btn caregg-btn-big caregg-btn-info">取消 <span class="iconfont">&#x34e4;</span></button>
+    </p>
+
+<pre class="code">
+1) 请查看源码看示例
+2) 如果设计出现了上面没有的按钮，比如宽度更宽等，请使用 <code>caregg-btn-block</code>
+</pre>
+
+</div>
+<!--/block-->
+
+<!--panel-->
+<div class="block-title" id="b3">
+    <h2>Btn 按钮</h2>
+    <p>caregg-btn</p>
+</div>
+<div style="padding: 10px 0;">
+
+</div>
+<!--end panel-->
+
+
+<!--sprite-->
+<style type="text/css">
+    .caregg-ico-wrap {
+        margin-bottom: 15px;
+    }
+
+    .caregg-ico-wrap h4 {
+        background: #fff;
+        margin-bottom: 5px;
+        border-left: 0 none;
+        padding: 0;
+    }
+
+</style>
+<div class="block">
+<div class="block-title" id="b10">
+    <h2>sprite 雪碧图标</h2>
+
+    <p>caregg-ico</p>
+</div>
+
+<div style="padding: 10px 0;">
+
+    <div class="caregg-ico-wrap caregg-ico-menu-wrap">
+        <h4>左侧导航菜单</h4>
+        <span class="caregg-ico caregg-ico-menu-1"></span>
+        <span class="caregg-ico caregg-ico-menu-2"></span>
+        <span class="caregg-ico caregg-ico-menu-3"></span>
+        <span class="caregg-ico caregg-ico-menu-4"></span>
+        <span class="caregg-ico caregg-ico-menu-5"></span>
+        <span class="caregg-ico caregg-ico-menu-6"></span>
+        <span class="caregg-ico caregg-ico-menu-7"></span>
+        <span class="caregg-ico caregg-ico-menu-8"></span>
+        <span class="caregg-ico caregg-ico-menu-9"></span>
+    </div>
+
+</div>
+
+</div>
+<!--/block-->
+
+
+<!--iconfont图标-->
+<div class="block">
+
+<div class="block-title" id="b11">
+    <h2>iconfont图标</h2>
+</div>
+
+<div>
+<ul class="icon_lists fn-clearfix">
+
+<li>
+    <i class="iconfont">&#x3451;</i>
+    <div class="name">云上传</div>
+    <div class="code">&amp;#x3451;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3452;</i>
+    <div class="name">新</div>
+    <div class="code">&amp;#x3452;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3453;</i>
+    <div class="name">编辑</div>
+    <div class="code">&amp;#x3453;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3454;</i>
+    <div class="name">上传</div>
+    <div class="code">&amp;#x3454;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3455;</i>
+    <div class="name">上传</div>
+    <div class="code">&amp;#x3455;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3456;</i>
+    <div class="name">列表</div>
+    <div class="code">&amp;#x3456;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3457;</i>
+    <div class="name">发送</div>
+    <div class="code">&amp;#x3457;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3462;</i>
+    <div class="name">新手上路</div>
+    <div class="code">&amp;#x3462;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3465;</i>
+    <div class="name">其他</div>
+    <div class="code">&amp;#x3465;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3468;</i>
+    <div class="name">电子书</div>
+    <div class="code">&amp;#x3468;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3471;</i>
+    <div class="name">全部</div>
+    <div class="code">&amp;#x3471;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3473;</i>
+    <div class="name">文章</div>
+    <div class="code">&amp;#x3473;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3475;</i>
+    <div class="name">图片</div>
+    <div class="code">&amp;#x3475;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3491;</i>
+    <div class="name">标签</div>
+    <div class="code">&amp;#x3491;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3494;</i>
+    <div class="name">日历</div>
+    <div class="code">&amp;#x3494;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3497;</i>
+    <div class="name">对话框</div>
+    <div class="code">&amp;#x3497;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34d2;</i>
+    <div class="name">图书</div>
+    <div class="code">&amp;#x34d2;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34df;</i>
+    <div class="name">对话</div>
+    <div class="code">&amp;#x34df;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34e0;</i>
+    <div class="name">推荐</div>
+    <div class="code">&amp;#x34e0;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34e1;</i>
+    <div class="name">认证用户</div>
+    <div class="code">&amp;#x34e1;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34e3;</i>
+    <div class="name">正确</div>
+    <div class="code">&amp;#x34e3;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34e4;</i>
+    <div class="name">错误</div>
+    <div class="code">&amp;#x34e4;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34e5;</i>
+    <div class="name">禁止</div>
+    <div class="code">&amp;#x34e5;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34e6;</i>
+    <div class="name">提醒</div>
+    <div class="code">&amp;#x34e6;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34e7;</i>
+    <div class="name">提示</div>
+    <div class="code">&amp;#x34e7;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34e8;</i>
+    <div class="name">警告</div>
+    <div class="code">&amp;#x34e8;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34e9;</i>
+    <div class="name">帮助</div>
+    <div class="code">&amp;#x34e9;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34ec;</i>
+    <div class="name">账户</div>
+    <div class="code">&amp;#x34ec;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34ee;</i>
+    <div class="name">文件</div>
+    <div class="code">&amp;#x34ee;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34ef;</i>
+    <div class="name">编辑文件</div>
+    <div class="code">&amp;#x34ef;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34f4;</i>
+    <div class="name">搜索文件</div>
+    <div class="code">&amp;#x34f4;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34f6;</i>
+    <div class="name">文件夹</div>
+    <div class="code">&amp;#x34f6;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34f7;</i>
+    <div class="name">新增文件夹</div>
+    <div class="code">&amp;#x34f7;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x34fb;</i>
+    <div class="name">资料库</div>
+    <div class="code">&amp;#x34fb;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3506;</i>
+    <div class="name">设计师</div>
+    <div class="code">&amp;#x3506;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3509;</i>
+    <div class="name">添加商家</div>
+    <div class="code">&amp;#x3509;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x351d;</i>
+    <div class="name">管理员</div>
+    <div class="code">&amp;#x351d;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3548;</i>
+    <div class="name">标签</div>
+    <div class="code">&amp;#x3548;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x354b;</i>
+    <div class="name">云下载</div>
+    <div class="code">&amp;#x354b;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x355c;</i>
+    <div class="name">首页</div>
+    <div class="code">&amp;#x355c;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x355d;</i>
+    <div class="name">搜索</div>
+    <div class="code">&amp;#x355d;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x355e;</i>
+    <div class="name">用户</div>
+    <div class="code">&amp;#x355e;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x355f;</i>
+    <div class="name">黑名单</div>
+    <div class="code">&amp;#x355f;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3560;</i>
+    <div class="name">分享</div>
+    <div class="code">&amp;#x3560;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3561;</i>
+    <div class="name">文本</div>
+    <div class="code">&amp;#x3561;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3562;</i>
+    <div class="name">保存</div>
+    <div class="code">&amp;#x3562;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3563;</i>
+    <div class="name">对话</div>
+    <div class="code">&amp;#x3563;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x356d;</i>
+    <div class="name">赞扬</div>
+    <div class="code">&amp;#x356d;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x356e;</i>
+    <div class="name">批评</div>
+    <div class="code">&amp;#x356e;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x356f;</i>
+    <div class="name">设置</div>
+    <div class="code">&amp;#x356f;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3570;</i>
+    <div class="name">删除</div>
+    <div class="code">&amp;#x3570;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3573;</i>
+    <div class="name">信息</div>
+    <div class="code">&amp;#x3573;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3574;</i>
+    <div class="name">帮助</div>
+    <div class="code">&amp;#x3574;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3575;</i>
+    <div class="name">收藏</div>
+    <div class="code">&amp;#x3575;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3576;</i>
+    <div class="name">喜爱</div>
+    <div class="code">&amp;#x3576;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x357c;</i>
+    <div class="name">好友</div>
+    <div class="code">&amp;#x357c;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3580;</i>
+    <div class="name">编辑</div>
+    <div class="code">&amp;#x3580;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3583;</i>
+    <div class="name">标签</div>
+    <div class="code">&amp;#x3583;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3584;</i>
+    <div class="name">减</div>
+    <div class="code">&amp;#x3584;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3585;</i>
+    <div class="name">加</div>
+    <div class="code">&amp;#x3585;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3586;</i>
+    <div class="name">错误</div>
+    <div class="code">&amp;#x3586;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3587;</i>
+    <div class="name">正确</div>
+    <div class="code">&amp;#x3587;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x358c;</i>
+    <div class="name">附件</div>
+    <div class="code">&amp;#x358c;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x358d;</i>
+    <div class="name">刷新</div>
+    <div class="code">&amp;#x358d;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3594;</i>
+    <div class="name">下载</div>
+    <div class="code">&amp;#x3594;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3596;</i>
+    <div class="name">发送邮件</div>
+    <div class="code">&amp;#x3596;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3597;</i>
+    <div class="name">提醒设置</div>
+    <div class="code">&amp;#x3597;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x359e;</i>
+    <div class="name">向右</div>
+    <div class="code">&amp;#x359e;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x359f;</i>
+    <div class="name">向左</div>
+    <div class="code">&amp;#x359f;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x35a0;</i>
+    <div class="name">向上</div>
+    <div class="code">&amp;#x35a0;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x35a1;</i>
+    <div class="name">向下</div>
+    <div class="code">&amp;#x35a1;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x35ad;</i>
+    <div class="name">退出</div>
+    <div class="code">&amp;#x35ad;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x35c5;</i>
+    <div class="name">打开信息</div>
+    <div class="code">&amp;#x35c5;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x35d4;</i>
+    <div class="name">向上</div>
+    <div class="code">&amp;#x35d4;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x35d7;</i>
+    <div class="name">向下</div>
+    <div class="code">&amp;#x35d7;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x35d9;</i>
+    <div class="name">向左</div>
+    <div class="code">&amp;#x35d9;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x35da;</i>
+    <div class="name">向右</div>
+    <div class="code">&amp;#x35da;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x35df;</i>
+    <div class="name">链接</div>
+    <div class="code">&amp;#x35df;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x361c;</i>
+    <div class="name">对话</div>
+    <div class="code">&amp;#x361c;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x361d;</i>
+    <div class="name">选择</div>
+    <div class="code">&amp;#x361d;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3632;</i>
+    <div class="name">转推</div>
+    <div class="code">&amp;#x3632;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x3635;</i>
+    <div class="name">关机</div>
+    <div class="code">&amp;#x3635;</div>
+</li>
+
+<li>
+    <i class="iconfont">&#x36c1;</i>
+    <div class="name">收藏</div>
+    <div class="code">&amp;#x36c1;</div>
+</li>
+
+</ul>
+</div>
+
+</div>
+<!--/block-->
+
+
+</div>
+</div>
+</div>
+
+<div class="right-sidebar-2col">
+    <div class="demo-menu">
+        <ul>
+            <li><a href="#b1">Tab 和 文章简介列表</a></li>
+            <li><a href="#b2">List 列表</a></li>
+            <li><a href="#b3">Btn 按钮</a></li>
+            <li><a href="#b4">Panel 面板</a></li>
+            <li><a href="#b5">breadcrumb 面包屑</a></li>
+            <li><a href="#b5.5">bubble 气泡</a></li>
+            <li><a href="#b6">star 星星</a></li>
+            <li><a href="#b7">form 表单排列</a></li>
+            <li><a href="#b8">page 翻页 (小翻页 v2)</a></li>
+            <li><a href="#b9">page 翻页 (小翻页 v3)</a></li>
+            <li><a href="#b10">sprite 雪碧图标</a></li>
+            <li><a href="#b11">iconfont 图标</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

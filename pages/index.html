@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js ie ie8"><![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Demo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/public/stylesheets/ico-caregg-sprite.css" />
+    <link rel="stylesheet" href="/public/stylesheets/base.css"/>
+    <link rel="stylesheet" href="/public/stylesheets/layout.css"/>
+    <link rel="stylesheet" href="/public/stylesheets/common.css"/>
+    <link rel="stylesheet" href="/public/stylesheets/home.css"/>
+</head>
+<body>
+<div class="container fn-clearfix">
+<div class="p-left-sidebar-2col" >
+    <a class="logo-link" href="/"><span class="caregg-ico caregg-ico-logo-1"></span></a>
+    <ul class="left-sidebar-menu">
+    </ul>
+</div>
+<div class="p-right-sidebar-2col">
+    <div class="p-right-sidebar-2col-inner">
+        <div class="home-header fn-clearfix">
+            <span class="o2o-name">运营管理平台</span>
+            <ul class="header-menu">
+                <li>
+                    <span>您好，</span>
+                    <div class="header-menu-dropdown fn-left">
+                        <div>
+                            <span class="text-color-orange">东总公交</span>
+                            <span class="icon-triangle-down iconfont"></span>
+                        </div>
+                        <div class="caregg-bubble caregg-bubble-top menu-dropdown-box">
+                            <i class="caregg-bubble-spike"></i>
+                            <ul>
+                                <li><a>个人中心</a></li>
+                                <li><a>修改密码</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>|</li>
+                <li><a href="#logout" title="退出">退出</a></li>
+                <li>|</li>
+                <li class="header-menu-dropdown">
+                    <div>
+                        <span>设置</span>
+                        <span class="icon-triangle-down iconfont"></span>
+                    </div>
+                    <div class="caregg-bubble caregg-bubble-top menu-dropdown-box setting-dropdown-box">
+                    </div>
+                </li>
+                <li>|</li>
+                <li>帮助</li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="caregg-tab-v7"  id="home-main-tab" >
+                <div class="caregg-tab-v7-nav">
+                    <ul class="fn-clearfix">
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#message">消息</a></li>
+                        <li><a href="#business" id="businessLink">业务</a></li>
+                    </ul>
+                </div>
+                <div class="caregg-tab-v7-main">
+
+                    <div class="caregg-tab-v7-switch" id="homePanel">
+                    </div>
+                    <div class="caregg-tab-v7-switch" id="messagePanel">
+                    </div>
+                    <div class="caregg-tab-v7-switch" id="businessPanel">
+                        <div class="businessPanelWrap"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    //针对不支持console的浏览器进行处理。免得组里有人写js用console进行调试忘记去掉而报错。
+    (function (window) {
+        if (typeof window.console == "undefined") {
+            window.console = {};
+            var keyword = 'assert,clear,count,debug,dir,drixml,error,exception,group,groupCollapsed,groupEnd,info,log,profile,profileEnd,table,time,timeEnd,timeStamp,trace,warn'.split(",");
+            var i = 0;
+            var len = keyword.length;
+
+            for (; i < len; i++) {
+                window.console[keyword[i]] = function () {
+                };
+            }
+        }
+    })(this);
+</script>
+<script type="text/javascript" src="/public/javascripts/seajs/2.3.0/dist/sea.js"></script>
+<script type="text/javascript" src="/public/javascripts/seajs/2.3.0/dist/seajs-preload.js"></script>
+<script type="text/javascript" src="/public/javascripts/config.js"></script>
+<script>
+    seajs.use('home');
+</script>
+</body>
+</html>

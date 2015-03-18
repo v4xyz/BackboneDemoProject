@@ -1,0 +1,2288 @@
+{
+    "hai.zhang":{
+        "password": "123",
+        "token": "haizhang-demo",
+        "menuData": {
+            "state": 1,
+            "message": "查询成功",
+            "data": {
+                "dataList": [
+                    {
+                        "oprFuncName": "设置",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "组织架构",
+                                "funcPic": "",
+                                "children": [],
+                                "funcUrl": "",
+                                "oprFuncCode": "10001",
+                                "oprFunctionSeq": 111
+                            },
+                            {
+                                "oprFuncName": "用户管理",
+                                "funcPic": "",
+                                "children": [],
+                                "funcUrl": "",
+                                "oprFuncCode": "10002",
+                                "oprFunctionSeq": 112
+                            },
+                            {
+                                "oprFuncName": "角色管理",
+                                "funcPic": "",
+                                "children": [],
+                                "funcUrl": "",
+                                "oprFuncCode": "10003",
+                                "oprFunctionSeq": 113
+                            },
+                            {
+                                "oprFuncName": "数据字典",
+                                "funcPic": "",
+                                "children": [],
+                                "funcUrl": "",
+                                "oprFuncCode": "10004",
+                                "oprFunctionSeq": 114
+                            },
+                            {
+                                "oprFuncName": "业务参数",
+                                "funcPic": "",
+                                "children": [],
+                                "funcUrl": "",
+                                "oprFuncCode": "10005",
+                                "oprFunctionSeq": 115
+                            },
+                            {
+                                "oprFuncName": "操作日志",
+                                "funcPic": "",
+                                "children": [],
+                                "funcUrl": "",
+                                "oprFuncCode": "10006",
+                                "oprFunctionSeq": 116
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "100",
+                        "oprFunctionSeq": 11
+                    },
+                    {
+                        "oprFuncName": "系统配置",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "平台信息管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "运营角色管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010101",
+                                        "oprFunctionSeq": 36
+                                    },
+                                    {
+                                        "oprFuncName": "运营功能管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010102",
+                                        "oprFunctionSeq": 37
+                                    },
+                                    {
+                                        "oprFuncName": "商家角色管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010103",
+                                        "oprFunctionSeq": 38
+                                    },
+                                    {
+                                        "oprFuncName": "商家功能管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010104",
+                                        "oprFunctionSeq": 39
+                                    },
+                                    {
+                                        "oprFuncName": "字典管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010105",
+                                        "oprFunctionSeq": 40
+                                    },
+                                    {
+                                        "oprFuncName": "字典条目管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010106",
+                                        "oprFunctionSeq": 41
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10101",
+                                "oprFunctionSeq": 12
+                            },
+                            {
+                                "oprFuncName": "系统信息管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "运营组织管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010201",
+                                        "oprFunctionSeq": 42
+                                    },
+                                    {
+                                        "oprFuncName": "运营用户管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010202",
+                                        "oprFunctionSeq": 43
+                                    },
+                                    {
+                                        "oprFuncName": "银行账户管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010203",
+                                        "oprFunctionSeq": 44
+                                    },
+                                    {
+                                        "oprFuncName": "支付接口管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010204",
+                                        "oprFunctionSeq": 45
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10102",
+                                "oprFunctionSeq": 13
+                            },
+                            {
+                                "oprFuncName": "用户信息管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "商家组织管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010301",
+                                        "oprFunctionSeq": 46
+                                    },
+                                    {
+                                        "oprFuncName": "商家用户管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010302",
+                                        "oprFunctionSeq": 47
+                                    },
+                                    {
+                                        "oprFuncName": "车主信息管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010303",
+                                        "oprFunctionSeq": 48
+                                    },
+                                    {
+                                        "oprFuncName": "车辆信息管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010304",
+                                        "oprFunctionSeq": 49
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10103",
+                                "oprFunctionSeq": 14
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "101",
+                        "oprFunctionSeq": 1
+                    },
+                    {
+                        "oprFuncName": "车蛋信息",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "预约管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "预约审核",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020101",
+                                        "oprFunctionSeq": 50
+                                    },
+                                    {
+                                        "oprFuncName": "车辆信息录入",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020102",
+                                        "oprFunctionSeq": 51
+                                    },
+                                    {
+                                        "oprFuncName": "车辆信息核对",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020103",
+                                        "oprFunctionSeq": 52
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10201",
+                                "oprFunctionSeq": 15
+                            },
+                            {
+                                "oprFuncName": "激活管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "入库管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020201",
+                                        "oprFunctionSeq": 53
+                                    },
+                                    {
+                                        "oprFuncName": "出库管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020202",
+                                        "oprFunctionSeq": 54
+                                    },
+                                    {
+                                        "oprFuncName": "激活管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020203",
+                                        "oprFunctionSeq": 55
+                                    },
+                                    {
+                                        "oprFuncName": "退换货管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020204",
+                                        "oprFunctionSeq": 56
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10202",
+                                "oprFunctionSeq": 16
+                            },
+                            {
+                                "oprFuncName": "升级管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "车蛋组管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020301",
+                                        "oprFunctionSeq": 57
+                                    },
+                                    {
+                                        "oprFuncName": "SIM卡套餐管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020302",
+                                        "oprFunctionSeq": 58
+                                    },
+                                    {
+                                        "oprFuncName": "硬件版本管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020303",
+                                        "oprFunctionSeq": 59
+                                    },
+                                    {
+                                        "oprFuncName": "软件版本管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020304",
+                                        "oprFunctionSeq": 60
+                                    },
+                                    {
+                                        "oprFuncName": "在线升级管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020305",
+                                        "oprFunctionSeq": 61
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10203",
+                                "oprFunctionSeq": 17
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "102",
+                        "oprFunctionSeq": 2
+                    },
+                    {
+                        "oprFuncName": "车辆监控",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "实时监控",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "实时监控-按分公司",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1030101",
+                                        "oprFunctionSeq": 62
+                                    },
+                                    {
+                                        "oprFuncName": "离线报警",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1030102",
+                                        "oprFunctionSeq": 63
+                                    },
+                                    {
+                                        "oprFuncName": "轨迹查看",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1030103",
+                                        "oprFunctionSeq": 64
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10301",
+                                "oprFunctionSeq": 18
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "103",
+                        "oprFunctionSeq": 3
+                    },
+                    {
+                        "oprFuncName": "洗车美容",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "商品管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "上架申请",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040101",
+                                        "oprFunctionSeq": 65
+                                    },
+                                    {
+                                        "oprFuncName": "上架审核",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040102",
+                                        "oprFunctionSeq": 66
+                                    },
+                                    {
+                                        "oprFuncName": "下架管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040103",
+                                        "oprFunctionSeq": 67
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10401",
+                                "oprFunctionSeq": 19
+                            },
+                            {
+                                "oprFuncName": "订单管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "订单管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040201",
+                                        "oprFunctionSeq": 68
+                                    },
+                                    {
+                                        "oprFuncName": "退单审批",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040202",
+                                        "oprFunctionSeq": 69
+                                    },
+                                    {
+                                        "oprFuncName": "改价审批",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040203",
+                                        "oprFunctionSeq": 70
+                                    },
+                                    {
+                                        "oprFuncName": "评价管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040204",
+                                        "oprFunctionSeq": 71
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10402",
+                                "oprFunctionSeq": 20
+                            },
+                            {
+                                "oprFuncName": "促销管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "促销申请",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040301",
+                                        "oprFunctionSeq": 72
+                                    },
+                                    {
+                                        "oprFuncName": "促销审批",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040302",
+                                        "oprFunctionSeq": 73
+                                    },
+                                    {
+                                        "oprFuncName": "促销下架",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040303",
+                                        "oprFunctionSeq": 74
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10403",
+                                "oprFunctionSeq": 21
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "104",
+                        "oprFunctionSeq": 4
+                    },
+                    {
+                        "oprFuncName": "维修保养",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "商品管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "上架申请",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050101",
+                                        "oprFunctionSeq": 75
+                                    },
+                                    {
+                                        "oprFuncName": "上架审核",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050102",
+                                        "oprFunctionSeq": 76
+                                    },
+                                    {
+                                        "oprFuncName": "下架管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050103",
+                                        "oprFunctionSeq": 77
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10501",
+                                "oprFunctionSeq": 22
+                            },
+                            {
+                                "oprFuncName": "订单管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "订单管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050201",
+                                        "oprFunctionSeq": 78
+                                    },
+                                    {
+                                        "oprFuncName": "退单审批",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050202",
+                                        "oprFunctionSeq": 79
+                                    },
+                                    {
+                                        "oprFuncName": "改价审批",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050203",
+                                        "oprFunctionSeq": 80
+                                    },
+                                    {
+                                        "oprFuncName": "评价管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050204",
+                                        "oprFunctionSeq": 81
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10502",
+                                "oprFunctionSeq": 23
+                            },
+                            {
+                                "oprFuncName": "促销管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "促销申请",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050301",
+                                        "oprFunctionSeq": 82
+                                    },
+                                    {
+                                        "oprFuncName": "促销审批",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050302",
+                                        "oprFunctionSeq": 83
+                                    },
+                                    {
+                                        "oprFuncName": "促销下架",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050303",
+                                        "oprFunctionSeq": 84
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10503",
+                                "oprFunctionSeq": 24
+                            },
+                            {
+                                "oprFuncName": "救援管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "商家管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050401",
+                                        "oprFunctionSeq": 85
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10504",
+                                "oprFunctionSeq": 25
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "105",
+                        "oprFunctionSeq": 5
+                    },
+                    {
+                        "oprFuncName": "汽车保险",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "配置信息",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "险种管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1060101",
+                                        "oprFunctionSeq": 86
+                                    },
+                                    {
+                                        "oprFuncName": "套餐管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1060102",
+                                        "oprFunctionSeq": 87
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10601",
+                                "oprFunctionSeq": 26
+                            },
+                            {
+                                "oprFuncName": "订单管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "订单管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1060201",
+                                        "oprFunctionSeq": 88
+                                    },
+                                    {
+                                        "oprFuncName": "未付款跟踪",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1060202",
+                                        "oprFunctionSeq": 89
+                                    },
+                                    {
+                                        "oprFuncName": "退单审核",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1060203",
+                                        "oprFunctionSeq": 90
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10602",
+                                "oprFunctionSeq": 27
+                            },
+                            {
+                                "oprFuncName": "保单管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "保单管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1060301",
+                                        "oprFunctionSeq": 91
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10603",
+                                "oprFunctionSeq": 28
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "106",
+                        "oprFunctionSeq": 6
+                    },
+                    {
+                        "oprFuncName": "车辆违章",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "订单管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "订单管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1070101",
+                                        "oprFunctionSeq": 92
+                                    },
+                                    {
+                                        "oprFuncName": "退单审核",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1070102",
+                                        "oprFunctionSeq": 93
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10701",
+                                "oprFunctionSeq": 29
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "107",
+                        "oprFunctionSeq": 7
+                    },
+                    {
+                        "oprFuncName": "停车服务",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "配置信息",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "车位管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1080101",
+                                        "oprFunctionSeq": 94
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10801",
+                                "oprFunctionSeq": 30
+                            },
+                            {
+                                "oprFuncName": "订单管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "订单管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1080201",
+                                        "oprFunctionSeq": 95
+                                    },
+                                    {
+                                        "oprFuncName": "退单审核",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1080202",
+                                        "oprFunctionSeq": 96
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10802",
+                                "oprFunctionSeq": 31
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "108",
+                        "oprFunctionSeq": 8
+                    },
+                    {
+                        "oprFuncName": "财务单证",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "账单管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "账单管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1090101",
+                                        "oprFunctionSeq": 97
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10901",
+                                "oprFunctionSeq": 32
+                            },
+                            {
+                                "oprFuncName": "返利管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "返利管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1090201",
+                                        "oprFunctionSeq": 98
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10902",
+                                "oprFunctionSeq": 33
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "109",
+                        "oprFunctionSeq": 9
+                    },
+                    {
+                        "oprFuncName": "统计报表",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "车蛋报表",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "车蛋预约报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100101",
+                                        "oprFunctionSeq": 99
+                                    },
+                                    {
+                                        "oprFuncName": "车蛋入库报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100102",
+                                        "oprFunctionSeq": 100
+                                    },
+                                    {
+                                        "oprFuncName": "车蛋出库报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100103",
+                                        "oprFunctionSeq": 101
+                                    },
+                                    {
+                                        "oprFuncName": "车蛋激活报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100104",
+                                        "oprFunctionSeq": 102
+                                    },
+                                    {
+                                        "oprFuncName": "车蛋在线报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100105",
+                                        "oprFunctionSeq": 103
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "11001",
+                                "oprFunctionSeq": 34
+                            },
+                            {
+                                "oprFuncName": "账务报表",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "每日收益报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100201",
+                                        "oprFunctionSeq": 104
+                                    },
+                                    {
+                                        "oprFuncName": "美保订单报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100202",
+                                        "oprFunctionSeq": 105
+                                    },
+                                    {
+                                        "oprFuncName": "维保订单报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100203",
+                                        "oprFunctionSeq": 106
+                                    },
+                                    {
+                                        "oprFuncName": "违章订单报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100204",
+                                        "oprFunctionSeq": 107
+                                    },
+                                    {
+                                        "oprFuncName": "保险订单报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100205",
+                                        "oprFunctionSeq": 108
+                                    },
+                                    {
+                                        "oprFuncName": "停车订单报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100206",
+                                        "oprFunctionSeq": 109
+                                    },
+                                    {
+                                        "oprFuncName": "账务结算报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100207",
+                                        "oprFunctionSeq": 110
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "11002",
+                                "oprFunctionSeq": 35
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "110",
+                        "oprFunctionSeq": 10
+                    }
+                ]
+            }
+        },
+        "sysRoleData":{
+            "state": 1,
+            "message": "查询成功",
+            "data": {
+                "pageId": 1,
+                "rowCount": 21,
+                "pageSize": 5,
+                "pageCount": 5,
+                "pageOffset": 0,
+                "pageTail": 5,
+                "orderField": null,
+                "orderDirection": true,
+                "dataList": [
+                    {
+                        "roleDesc": "111ffff",
+                        "roleName": "111",
+                        "roleCode": "Role01",
+                        "oprRoleSeq": 1
+                    },
+                    {
+                        "roleDesc": "222",
+                        "roleName": "22",
+                        "roleCode": "Role2",
+                        "oprRoleSeq": 2
+                    },
+                    {
+                        "roleDesc": "测试角色2",
+                        "roleName": "测试角色2",
+                        "roleCode": "3",
+                        "oprRoleSeq": 3
+                    },
+                    {
+                        "roleDesc": "test",
+                        "roleName": "sfsdfsdf1",
+                        "roleCode": "roleT1kk",
+                        "oprRoleSeq": 5
+                    },
+                    {
+                        "roleDesc": "test",
+                        "roleName": "333",
+                        "roleCode": "roleT3",
+                        "oprRoleSeq": 7
+                    }
+                ],
+                "mysqlQueryCondition": " limit 0,5",
+                "orderCondition": ""
+            }
+        },
+        "sysOrgData":{
+            "state": 1,
+            "message": "查询成功",
+            "data": {
+                "pageId": 1,
+                "rowCount": 42,
+                "pageSize": 5,
+                "pageCount": 9,
+                "pageOffset": 0,
+                "pageTail": 5,
+                "orderField": null,
+                "orderDirection": true,
+                "dataList": [
+                    {
+                        "englishName": "levis",
+                        "careggOrgCode": "000000",
+                        "careggEmail": "sss@126.com",
+                        "careggOrgLevel": 0,
+                        "orgDesc": "??",
+                        "primaryAddr": "????",
+                        "chineseName": "????",
+                        "careggOrgSort": 0,
+                        "careggTel": "131",
+                        "careggOrgSeq": 1,
+                        "orgStatus": 0,
+                        "careggContactPerson": "levis",
+                        "secondaryAddr": "sssssss",
+                        "upCareggOrgSeq": 0
+                    },
+                    {
+                        "englishName": "levis",
+                        "careggOrgCode": "000000",
+                        "careggEmail": "sss@126.com",
+                        "careggOrgLevel": 0,
+                        "orgDesc": "??",
+                        "primaryAddr": "????",
+                        "chineseName": "ssssssssssssssssssssssss",
+                        "careggOrgSort": 0,
+                        "careggTel": "131",
+                        "careggOrgSeq": 2,
+                        "orgStatus": 0,
+                        "careggContactPerson": "levis",
+                        "secondaryAddr": "????",
+                        "upCareggOrgSeq": 0
+                    },
+                    {
+                        "englishName": "levis",
+                        "careggOrgCode": "000000",
+                        "careggEmail": "sss@126.com",
+                        "careggOrgLevel": 0,
+                        "orgDesc": "??",
+                        "primaryAddr": "????",
+                        "chineseName": "ssssssssssssssssssssssss",
+                        "careggOrgSort": 0,
+                        "careggTel": "131",
+                        "careggOrgSeq": 3,
+                        "orgStatus": 0,
+                        "careggContactPerson": "levis",
+                        "secondaryAddr": "????",
+                        "upCareggOrgSeq": 0
+                    },
+                    {
+                        "englishName": "levis",
+                        "careggOrgCode": "000000",
+                        "careggEmail": "sss@126.com",
+                        "careggOrgLevel": 0,
+                        "orgDesc": "",
+                        "primaryAddr": "主要地址",
+                        "chineseName": "车蛋组织",
+                        "careggOrgSort": 0,
+                        "careggTel": "131",
+                        "orgTypeSeq": 9,
+                        "careggOrgSeq": 4,
+                        "orgStatus": 0,
+                        "careggContactPerson": "levis",
+                        "secondaryAddr": "次要地址"
+                    },
+                    {
+                        "englishName": "levis",
+                        "careggOrgCode": "000000",
+                        "careggEmail": "sss@126.com",
+                        "careggOrgLevel": 0,
+                        "orgDesc": "",
+                        "primaryAddr": "主要地址",
+                        "chineseName": "车蛋组织",
+                        "careggOrgSort": 0,
+                        "careggTel": "131",
+                        "orgTypeSeq": 1,
+                        "careggOrgSeq": 5,
+                        "orgStatus": 0,
+                        "careggContactPerson": "levis",
+                        "secondaryAddr": "次要地址",
+                        "upCareggOrgSeq": 0
+                    }
+                ],
+                "mysqlQueryCondition": " limit 0,5",
+                "orderCondition": ""
+            }
+        },
+        "sellerOrgData":{
+            "state": 1,
+            "message": "查询成功",
+            "data": {
+                "pageId": 1,
+                "rowCount": 8,
+                "pageSize": 5,
+                "pageCount": 2,
+                "pageOffset": 0,
+                "pageTail": 5,
+                "orderField": null,
+                "orderDirection": true,
+                "dataList": [
+                    {
+                        "settleDayTypeSeq": 1,
+                        "careggEmail": "xxx@163.com",
+                        "oprEndTime": "00:00:00",
+                        "location": [
+                            {
+                                "serviceLocationSeq": 3,
+                                "serviceOrgSeq": 1,
+                                "slChineseAddr": "chinesesadd",
+                                "slEnglishAddr": "1.2522",
+                                "slProvice": 3,
+                                "slCity": 2,
+                                "slConnty": 1,
+                                "serviceLaValueGps": 0.1,
+                                "serviceLoValueGps": 0.1,
+                                "serviceRadius": 3,
+                                "isUnderearth": 0
+                            }
+                        ],
+                        "chineseName": "深圳平安保险公司",
+                        "serviceOrgCode": "12134",
+                        "serviceOrgDesc": "一家世界级的拖车公司",
+                        "careggTel": "110",
+                        "oprStartTime": "00:00:00",
+                        "englishName": "aaaabbbb",
+                        "serviceOrgSeq": 1,
+                        "serviceOrgLevel": 1,
+                        "primaryAddr": "深圳市南山区xx街道xx号",
+                        "orgtypes": [
+                            {
+                                "orgTypeSeq": 1
+                            },
+                            {
+                                "orgTypeSeq": 6
+                            },
+                            {
+                                "orgTypeSeq": 1
+                            },
+                            {
+                                "orgTypeSeq": 2
+                            },
+                            {
+                                "orgTypeSeq": 1
+                            },
+                            {
+                                "orgTypeSeq": 2
+                            }
+                        ],
+                        "upServiceOrgSeq": 11,
+                        "serviceOrgSort": 1,
+                        "careggContactPerson": "李四",
+                        "secondaryAddr": "xx号",
+                        "serviceOrgStatus": 1
+                    },
+                    {
+                        "settleDayTypeSeq": 1,
+                        "careggEmail": "huarun@163.com",
+                        "oprEndTime": "00:00:00",
+                        "location": [
+                            {
+                                "serviceLocationSeq": 2,
+                                "serviceOrgSeq": 2,
+                                "slChineseAddr": "深圳市宝安区时代广场bb号",
+                                "slEnglishAddr": "shenz",
+                                "slProvice": 1,
+                                "slCity": 2,
+                                "slConnty": 3,
+                                "serviceLaValueGps": 0.30142,
+                                "serviceLoValueGps": 0.91522,
+                                "serviceRadius": 5,
+                                "isUnderearth": 1
+                            }
+                        ],
+                        "chineseName": "深圳华润汽修公司",
+                        "serviceOrgCode": "2345",
+                        "serviceOrgDesc": "一家世界级的汽修公司",
+                        "careggTel": "120",
+                        "oprStartTime": "00:00:00",
+                        "englishName": "huarun",
+                        "serviceOrgSeq": 2,
+                        "serviceOrgLevel": 2,
+                        "primaryAddr": "深圳市南山区白石洲店",
+                        "orgtypes": [],
+                        "upServiceOrgSeq": 11,
+                        "serviceOrgSort": 2,
+                        "careggContactPerson": "张山",
+                        "secondaryAddr": "xx2号",
+                        "serviceOrgStatus": 1
+                    },
+                    {
+                        "settleDayTypeSeq": 1,
+                        "careggEmail": "gu@163.com",
+                        "oprEndTime": "00:00:00",
+                        "location": [
+                            {
+                                "serviceLocationSeq": 1,
+                                "serviceOrgSeq": 3,
+                                "slChineseAddr": "深圳市南山区XX街道XX号",
+                                "slEnglishAddr": "shenzhenshinanshanqu",
+                                "slProvice": 1,
+                                "slCity": 2,
+                                "slConnty": 3,
+                                "serviceLaValueGps": 0.40142,
+                                "serviceLoValueGps": 0.91521,
+                                "serviceRadius": 5,
+                                "isUnderearth": 1
+                            }
+                        ],
+                        "chineseName": "深圳车蛋汽修有限总公司",
+                        "serviceOrgCode": "4567",
+                        "serviceOrgDesc": "一家世界超级汽修公司",
+                        "careggTel": "119",
+                        "oprStartTime": "00:00:00",
+                        "englishName": "xxx蛋",
+                        "serviceOrgSeq": 3,
+                        "serviceOrgLevel": 3,
+                        "primaryAddr": "深圳市南山区科技园泰邦大厦",
+                        "orgtypes": [],
+                        "upServiceOrgSeq": 11,
+                        "serviceOrgSort": 3,
+                        "careggContactPerson": "古总",
+                        "secondaryAddr": "dd号",
+                        "serviceOrgStatus": 1
+                    },
+                    {
+                        "settleDayTypeSeq": 15,
+                        "careggEmail": "ss",
+                        "oprEndTime": "08:00:00",
+                        "location": [],
+                        "chineseName": "ss",
+                        "serviceOrgCode": "0001",
+                        "serviceOrgDesc": "d",
+                        "careggTel": "d",
+                        "oprStartTime": "08:00:00",
+                        "englishName": "11",
+                        "serviceOrgSeq": 8,
+                        "serviceOrgLevel": 11,
+                        "primaryAddr": "11",
+                        "orgtypes": [],
+                        "upServiceOrgSeq": 11,
+                        "serviceOrgSort": 11,
+                        "careggContactPerson": "11",
+                        "secondaryAddr": "11",
+                        "serviceOrgStatus": 0
+                    },
+                    {
+                        "settleDayTypeSeq": 15,
+                        "careggEmail": "ss",
+                        "oprEndTime": "08:00:00",
+                        "location": [],
+                        "chineseName": "ss",
+                        "serviceOrgCode": "0001",
+                        "serviceOrgDesc": "d",
+                        "careggTel": "d",
+                        "oprStartTime": "08:00:00",
+                        "englishName": "11",
+                        "serviceOrgSeq": 9,
+                        "serviceOrgLevel": 11,
+                        "primaryAddr": "11",
+                        "openingDate": 1420070400000,
+                        "orgtypes": [],
+                        "upServiceOrgSeq": 11,
+                        "serviceOrgSort": 11,
+                        "careggContactPerson": "11",
+                        "secondaryAddr": "11",
+                        "serviceOrgStatus": 0
+                    }
+                ],
+                "mysqlQueryCondition": " limit 0,5",
+                "orderCondition": ""
+            }
+        }
+    },
+    "li.lin":{
+        "password": "123",
+        "token": "lilin-demo",
+        "menuData":{
+            "state": 1,
+            "message": "查询成功",
+            "data": {
+                "dataList": [
+                    {
+                        "oprFuncName": "设置",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "组织架构",
+                                "funcPic": "",
+                                "children": [],
+                                "funcUrl": "",
+                                "oprFuncCode": "10001",
+                                "oprFunctionSeq": 111
+                            },
+                            {
+                                "oprFuncName": "用户管理",
+                                "funcPic": "",
+                                "children": [],
+                                "funcUrl": "",
+                                "oprFuncCode": "10002",
+                                "oprFunctionSeq": 112
+                            },
+                            {
+                                "oprFuncName": "角色管理",
+                                "funcPic": "",
+                                "children": [],
+                                "funcUrl": "",
+                                "oprFuncCode": "10003",
+                                "oprFunctionSeq": 113
+                            },
+                            {
+                                "oprFuncName": "数据字典",
+                                "funcPic": "",
+                                "children": [],
+                                "funcUrl": "",
+                                "oprFuncCode": "10004",
+                                "oprFunctionSeq": 114
+                            },
+                            {
+                                "oprFuncName": "业务参数",
+                                "funcPic": "",
+                                "children": [],
+                                "funcUrl": "",
+                                "oprFuncCode": "10005",
+                                "oprFunctionSeq": 115
+                            },
+                            {
+                                "oprFuncName": "操作日志",
+                                "funcPic": "",
+                                "children": [],
+                                "funcUrl": "",
+                                "oprFuncCode": "10006",
+                                "oprFunctionSeq": 116
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "100",
+                        "oprFunctionSeq": 11
+                    },
+                    {
+                        "oprFuncName": "系统配置",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "平台信息管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "运营角色管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010101",
+                                        "oprFunctionSeq": 36
+                                    },
+                                    {
+                                        "oprFuncName": "运营功能管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010102",
+                                        "oprFunctionSeq": 37
+                                    },
+                                    {
+                                        "oprFuncName": "商家角色管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010103",
+                                        "oprFunctionSeq": 38
+                                    },
+                                    {
+                                        "oprFuncName": "商家功能管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010104",
+                                        "oprFunctionSeq": 39
+                                    },
+                                    {
+                                        "oprFuncName": "字典管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010105",
+                                        "oprFunctionSeq": 40
+                                    },
+                                    {
+                                        "oprFuncName": "字典条目管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010106",
+                                        "oprFunctionSeq": 41
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10101",
+                                "oprFunctionSeq": 12
+                            },
+                            {
+                                "oprFuncName": "系统信息管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "运营组织管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010201",
+                                        "oprFunctionSeq": 42
+                                    },
+                                    {
+                                        "oprFuncName": "运营用户管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010202",
+                                        "oprFunctionSeq": 43
+                                    },
+                                    {
+                                        "oprFuncName": "银行账户管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010203",
+                                        "oprFunctionSeq": 44
+                                    },
+                                    {
+                                        "oprFuncName": "支付接口管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010204",
+                                        "oprFunctionSeq": 45
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10102",
+                                "oprFunctionSeq": 13
+                            },
+                            {
+                                "oprFuncName": "用户信息管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "商家组织管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010301",
+                                        "oprFunctionSeq": 46
+                                    },
+                                    {
+                                        "oprFuncName": "商家用户管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010302",
+                                        "oprFunctionSeq": 47
+                                    },
+                                    {
+                                        "oprFuncName": "车主信息管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010303",
+                                        "oprFunctionSeq": 48
+                                    },
+                                    {
+                                        "oprFuncName": "车辆信息管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1010304",
+                                        "oprFunctionSeq": 49
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10103",
+                                "oprFunctionSeq": 14
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "101",
+                        "oprFunctionSeq": 1
+                    },
+                    {
+                        "oprFuncName": "车蛋信息",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "预约管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "预约审核",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020101",
+                                        "oprFunctionSeq": 50
+                                    },
+                                    {
+                                        "oprFuncName": "车辆信息录入",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020102",
+                                        "oprFunctionSeq": 51
+                                    },
+                                    {
+                                        "oprFuncName": "车辆信息核对",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020103",
+                                        "oprFunctionSeq": 52
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10201",
+                                "oprFunctionSeq": 15
+                            },
+                            {
+                                "oprFuncName": "激活管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "入库管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020201",
+                                        "oprFunctionSeq": 53
+                                    },
+                                    {
+                                        "oprFuncName": "出库管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020202",
+                                        "oprFunctionSeq": 54
+                                    },
+                                    {
+                                        "oprFuncName": "激活管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020203",
+                                        "oprFunctionSeq": 55
+                                    },
+                                    {
+                                        "oprFuncName": "退换货管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020204",
+                                        "oprFunctionSeq": 56
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10202",
+                                "oprFunctionSeq": 16
+                            },
+                            {
+                                "oprFuncName": "升级管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "车蛋组管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020301",
+                                        "oprFunctionSeq": 57
+                                    },
+                                    {
+                                        "oprFuncName": "SIM卡套餐管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020302",
+                                        "oprFunctionSeq": 58
+                                    },
+                                    {
+                                        "oprFuncName": "硬件版本管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020303",
+                                        "oprFunctionSeq": 59
+                                    },
+                                    {
+                                        "oprFuncName": "软件版本管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020304",
+                                        "oprFunctionSeq": 60
+                                    },
+                                    {
+                                        "oprFuncName": "在线升级管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1020305",
+                                        "oprFunctionSeq": 61
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10203",
+                                "oprFunctionSeq": 17
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "102",
+                        "oprFunctionSeq": 2
+                    },
+                    {
+                        "oprFuncName": "车辆监控",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "实时监控",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "实时监控-按分公司",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1030101",
+                                        "oprFunctionSeq": 62
+                                    },
+                                    {
+                                        "oprFuncName": "离线报警",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1030102",
+                                        "oprFunctionSeq": 63
+                                    },
+                                    {
+                                        "oprFuncName": "轨迹查看",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1030103",
+                                        "oprFunctionSeq": 64
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10301",
+                                "oprFunctionSeq": 18
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "103",
+                        "oprFunctionSeq": 3
+                    },
+                    {
+                        "oprFuncName": "洗车美容",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "商品管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "上架申请",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040101",
+                                        "oprFunctionSeq": 65
+                                    },
+                                    {
+                                        "oprFuncName": "上架审核",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040102",
+                                        "oprFunctionSeq": 66
+                                    },
+                                    {
+                                        "oprFuncName": "下架管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040103",
+                                        "oprFunctionSeq": 67
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10401",
+                                "oprFunctionSeq": 19
+                            },
+                            {
+                                "oprFuncName": "订单管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "订单管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040201",
+                                        "oprFunctionSeq": 68
+                                    },
+                                    {
+                                        "oprFuncName": "退单审批",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040202",
+                                        "oprFunctionSeq": 69
+                                    },
+                                    {
+                                        "oprFuncName": "改价审批",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040203",
+                                        "oprFunctionSeq": 70
+                                    },
+                                    {
+                                        "oprFuncName": "评价管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040204",
+                                        "oprFunctionSeq": 71
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10402",
+                                "oprFunctionSeq": 20
+                            },
+                            {
+                                "oprFuncName": "促销管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "促销申请",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040301",
+                                        "oprFunctionSeq": 72
+                                    },
+                                    {
+                                        "oprFuncName": "促销审批",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040302",
+                                        "oprFunctionSeq": 73
+                                    },
+                                    {
+                                        "oprFuncName": "促销下架",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1040303",
+                                        "oprFunctionSeq": 74
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10403",
+                                "oprFunctionSeq": 21
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "104",
+                        "oprFunctionSeq": 4
+                    },
+                    {
+                        "oprFuncName": "维修保养",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "商品管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "上架申请",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050101",
+                                        "oprFunctionSeq": 75
+                                    },
+                                    {
+                                        "oprFuncName": "上架审核",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050102",
+                                        "oprFunctionSeq": 76
+                                    },
+                                    {
+                                        "oprFuncName": "下架管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050103",
+                                        "oprFunctionSeq": 77
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10501",
+                                "oprFunctionSeq": 22
+                            },
+                            {
+                                "oprFuncName": "订单管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "订单管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050201",
+                                        "oprFunctionSeq": 78
+                                    },
+                                    {
+                                        "oprFuncName": "退单审批",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050202",
+                                        "oprFunctionSeq": 79
+                                    },
+                                    {
+                                        "oprFuncName": "改价审批",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050203",
+                                        "oprFunctionSeq": 80
+                                    },
+                                    {
+                                        "oprFuncName": "评价管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050204",
+                                        "oprFunctionSeq": 81
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10502",
+                                "oprFunctionSeq": 23
+                            },
+                            {
+                                "oprFuncName": "促销管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "促销申请",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050301",
+                                        "oprFunctionSeq": 82
+                                    },
+                                    {
+                                        "oprFuncName": "促销审批",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050302",
+                                        "oprFunctionSeq": 83
+                                    },
+                                    {
+                                        "oprFuncName": "促销下架",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050303",
+                                        "oprFunctionSeq": 84
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10503",
+                                "oprFunctionSeq": 24
+                            },
+                            {
+                                "oprFuncName": "救援管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "商家管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1050401",
+                                        "oprFunctionSeq": 85
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10504",
+                                "oprFunctionSeq": 25
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "105",
+                        "oprFunctionSeq": 5
+                    },
+                    {
+                        "oprFuncName": "汽车保险",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "配置信息",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "险种管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1060101",
+                                        "oprFunctionSeq": 86
+                                    },
+                                    {
+                                        "oprFuncName": "套餐管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1060102",
+                                        "oprFunctionSeq": 87
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10601",
+                                "oprFunctionSeq": 26
+                            },
+                            {
+                                "oprFuncName": "订单管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "订单管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1060201",
+                                        "oprFunctionSeq": 88
+                                    },
+                                    {
+                                        "oprFuncName": "未付款跟踪",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1060202",
+                                        "oprFunctionSeq": 89
+                                    },
+                                    {
+                                        "oprFuncName": "退单审核",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1060203",
+                                        "oprFunctionSeq": 90
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10602",
+                                "oprFunctionSeq": 27
+                            },
+                            {
+                                "oprFuncName": "保单管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "保单管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1060301",
+                                        "oprFunctionSeq": 91
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10603",
+                                "oprFunctionSeq": 28
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "106",
+                        "oprFunctionSeq": 6
+                    },
+                    {
+                        "oprFuncName": "车辆违章",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "订单管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "订单管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1070101",
+                                        "oprFunctionSeq": 92
+                                    },
+                                    {
+                                        "oprFuncName": "退单审核",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1070102",
+                                        "oprFunctionSeq": 93
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10701",
+                                "oprFunctionSeq": 29
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "107",
+                        "oprFunctionSeq": 7
+                    },
+                    {
+                        "oprFuncName": "停车服务",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "配置信息",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "车位管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1080101",
+                                        "oprFunctionSeq": 94
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10801",
+                                "oprFunctionSeq": 30
+                            },
+                            {
+                                "oprFuncName": "订单管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "订单管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1080201",
+                                        "oprFunctionSeq": 95
+                                    },
+                                    {
+                                        "oprFuncName": "退单审核",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1080202",
+                                        "oprFunctionSeq": 96
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10802",
+                                "oprFunctionSeq": 31
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "108",
+                        "oprFunctionSeq": 8
+                    },
+                    {
+                        "oprFuncName": "财务单证",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "账单管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "账单管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1090101",
+                                        "oprFunctionSeq": 97
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10901",
+                                "oprFunctionSeq": 32
+                            },
+                            {
+                                "oprFuncName": "返利管理",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "返利管理",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1090201",
+                                        "oprFunctionSeq": 98
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "10902",
+                                "oprFunctionSeq": 33
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "109",
+                        "oprFunctionSeq": 9
+                    },
+                    {
+                        "oprFuncName": "统计报表",
+                        "funcPic": "",
+                        "children": [
+                            {
+                                "oprFuncName": "车蛋报表",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "车蛋预约报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100101",
+                                        "oprFunctionSeq": 99
+                                    },
+                                    {
+                                        "oprFuncName": "车蛋入库报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100102",
+                                        "oprFunctionSeq": 100
+                                    },
+                                    {
+                                        "oprFuncName": "车蛋出库报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100103",
+                                        "oprFunctionSeq": 101
+                                    },
+                                    {
+                                        "oprFuncName": "车蛋激活报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100104",
+                                        "oprFunctionSeq": 102
+                                    },
+                                    {
+                                        "oprFuncName": "车蛋在线报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100105",
+                                        "oprFunctionSeq": 103
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "11001",
+                                "oprFunctionSeq": 34
+                            },
+                            {
+                                "oprFuncName": "账务报表",
+                                "funcPic": "",
+                                "children": [
+                                    {
+                                        "oprFuncName": "每日收益报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100201",
+                                        "oprFunctionSeq": 104
+                                    },
+                                    {
+                                        "oprFuncName": "美保订单报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100202",
+                                        "oprFunctionSeq": 105
+                                    },
+                                    {
+                                        "oprFuncName": "维保订单报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100203",
+                                        "oprFunctionSeq": 106
+                                    },
+                                    {
+                                        "oprFuncName": "违章订单报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100204",
+                                        "oprFunctionSeq": 107
+                                    },
+                                    {
+                                        "oprFuncName": "保险订单报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100205",
+                                        "oprFunctionSeq": 108
+                                    },
+                                    {
+                                        "oprFuncName": "停车订单报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100206",
+                                        "oprFunctionSeq": 109
+                                    },
+                                    {
+                                        "oprFuncName": "账务结算报表",
+                                        "funcPic": "",
+                                        "children": [],
+                                        "funcUrl": "",
+                                        "oprFuncCode": "1100207",
+                                        "oprFunctionSeq": 110
+                                    }
+                                ],
+                                "funcUrl": "",
+                                "oprFuncCode": "11002",
+                                "oprFunctionSeq": 35
+                            }
+                        ],
+                        "funcUrl": "",
+                        "oprFuncCode": "110",
+                        "oprFunctionSeq": 10
+                    }
+                ]
+            }
+        }
+    },
+    "test": {
+        "password": "test"
+    }
+
+}

@@ -1,0 +1,164 @@
+.p-left-sidebar-2col .logo-link{
+    display: block;
+    width: 60px;
+    height: 67px;
+    margin: 10px auto 0 auto;
+}
+
+.home-header{
+    padding: 20px 0;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+.home-header .o2o-name{
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.home-header .header-menu{
+    float: right;
+    margin: 10px 30px 0 0;
+}
+
+.home-header .header-menu>li{
+    float: left;
+    margin: auto 5px auto;
+    height: 25px;
+}
+.home-header .header-menu li .iconfont{
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 5px;
+}
+.home-header .header-menu li span{
+    float: left;
+    cursor: pointer;
+}
+
+.header-menu-dropdown{
+    position: relative;
+    height: 25px;
+}
+.header-menu-dropdown:hover .menu-dropdown-box{
+    display: block;
+}
+.menu-dropdown-box{
+    width: 92px;
+    position: absolute;
+    top: 25px;
+    left: -12px;
+    padding: 0;
+    background: #fff;
+    display: none;
+}
+.menu-dropdown-box .caregg-bubble-spike{
+    right: 35px;
+}
+.menu-dropdown-box ul li{
+    height: 25px;
+}
+.menu-dropdown-box ul li a{
+    display: block;
+    line-height: 25px;
+    text-align: center;
+    color: #000;
+}
+.menu-dropdown-box ul li a:hover{
+    background: #F6F6F6;
+    text-decoration: none;
+}
+.setting-dropdown-box{
+    left: -26px;
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 76px;
+    bottom: 0;
+    z-index: 5;
+}
+#home-main-tab{
+    height: 100%;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.caregg-tab-v7-nav{
+    height: 37px;
+    position: absolute;
+    top: 0;
+    z-index: 15;
+    width: 100%;
+}
+.caregg-tab-v7-nav>ul{
+    overflow: visible;
+    border-bottom: 1px solid #949494;
+}
+.caregg-tab-v7-main{
+    position: absolute;
+    top: 37px;
+    z-index: 15;
+    width: 100%;
+    bottom: 0;
+}
+
+.caregg-tab-v7-main>div{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: 20;
+}
+.caregg-index-container{
+    width: 95%;
+    height: 80%;
+    margin: 20px auto 0;
+    border: 1px solid #ccc;
+    overflow: auto;
+}
+.tip-container{
+    height: 35px;
+    line-height: 35px;
+    background: #e4e4e4;
+    padding: 0 15px;
+    overflow: hidden;
+}
+.oprRoles-list ul{
+    width: 180px;
+    height:240px;
+    line-height: 20px;
+    overflow-y: auto;
+}
+.oprRoles-list ul input{
+    margin-right: 4px;
+}
+
+/*主页tab中的tab样式重写*/
+.caregg-tab-v8,.caregg-tab-v8-main{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.caregg-tab-v8{
+    top: 35px;
+}
+.caregg-tab-v8-main{
+    top: 38px;
+}
+.caregg-tab-v8-main>div {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.caregg-form-span {
+    line-height: 30px;
+    margin-left: 10px;
+}

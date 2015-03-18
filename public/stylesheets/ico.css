@@ -1,0 +1,31 @@
+/*
+  km sprite
+
+  A. 这个是开发版本
+  B. 拖进cssgaga里面会自动生成发布版本 ico-km-sprite.css
+  C. 图标都要放到 slice 目录里面，如果属于分类的，应该放到分类，否则自己新建分类
+
+  cssgaga的设置：
+
+  CssGaga:
+  1）路径：  （比如我的E:\SVN2\web\static\stylesheets） 这里写你自己电脑的ico.css所在的路径
+  2）CSS ：   勾选 “格式化”，“戳”
+  3）生成到： 勾选“km” （这个在 下面的“对应关系” 里面设置后，就可以看到）
+
+  更多选项：
+  1）新文件名：勾选 css，sprite，输入框写：km-sprite （其他不要动）
+
+  对应关系：
+  1）目标路径设置
+     序号     1
+     名称     km
+     路径     E:\SVN2\web\static\stylesheets （你自己的ico.css路径）
+     提单路径 E:\SVN2\web\static\stylesheets （你自己的ico.css路径）
+
+
+  如何引用：
+  添加： .css("/static/stylesheets/ico-km-sprite.css")
+
+*/
+@import url('ico-common.css');
+@import url('ico-mini.css');

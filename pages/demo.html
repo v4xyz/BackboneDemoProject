@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js ie ie8"><![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Demo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/public/stylesheets/ico-caregg-sprite.css" />
+    <link rel="stylesheet" href="/public/stylesheets/base.css"/>
+    <link rel="stylesheet" href="/public/stylesheets/module.css"/>
+    <link rel="stylesheet" href="/public/stylesheets/layout.css"/>
+    <link rel="stylesheet" href="/public/stylesheets/common.css"/>
+    <style>
+        html, body{
+            height: 100%;
+        }
+
+        .container{
+            height: 100%;
+        }
+
+        .p-left-sidebar-2col{
+            background: #3580aa;
+            height: 100%;
+        }
+
+        .p-right-sidebar-2col{
+            height: 100%;
+        }
+
+        .p-right-sidebar-2col-inner{
+            background: fff;
+            height: 100%;
+        }
+
+        .p-left-sidebar-2col .logo-link{
+            display: block;
+            width: 60px;
+            height: 67px;
+            margin: 10px auto 0 auto;
+        }
+
+        .p-left-sidebar-2col .left-sidebar-menu{
+            margin-top: 20px;
+        }
+
+        .p-left-sidebar-2col .left-sidebar-menu li{
+            width: 60px;
+            padding: 5px 30px;
+            color: #cae7f7;
+        }
+
+        .p-left-sidebar-2col .left-sidebar-menu li:hover, .p-left-sidebar-2col .left-sidebar-menu li.cur{
+            background: #265f7d;
+            border-left: 4px solid #73c6f2;
+            padding-left: 26px;
+        }
+
+        .p-left-sidebar-2col .left-sidebar-menu li:hover i, .p-left-sidebar-2col .left-sidebar-menu li.cur i{
+            visibility: hidden;
+        }
+
+        .p-left-sidebar-2col .left-sidebar-menu li:hover:before,.p-left-sidebar-2col .left-sidebar-menu li.cur:before{
+            content: '';
+            font-size: 0;
+            border-style: solid;
+            border-width: 8px 8px 8px 0;
+            border-color: transparent  #fff transparent transparent;
+            float: right;
+            margin: 50% -30px 0 0;
+        }
+
+        .p-left-sidebar-2col .left-sidebar-menu i{
+            float: right;
+            margin-top: 25px;
+            margin-right: -15px;
+            font-size: 16px;
+        }
+
+        .p-left-sidebar-2col .left-sidebar-menu .menu-item-name{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+
+        .home-header .o2o-name{
+            font-size: 24px;
+            margin: 10px;
+        }
+
+        .home-header .header-menu{
+            float: right;
+            margin: 10px;
+        }
+
+        .home-header .header-menu li{
+            float: left;
+            margin: auto 5px auto;
+        }
+
+
+
+        /**-- 手风琴样式 start --**/
+        #accordion-demo-1 {
+            width: 300px;
+            border: 1px solid #ccc;
+        }
+
+        #accordion-demo-1 .ui-switchable-trigger {
+            height: 30px;
+            line-height: 34px;
+            padding: 0 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #ddd;
+            background: #f3f3f3;
+            overflow: hidden;
+        }
+
+        #accordion-demo-1 .ui-switchable-trigger h3 {
+            margin: 0;
+            padding-left: 20px;
+            background: transparent url(/public/images/accordion-sprite.png) no-repeat 0 10px;
+        }
+
+        #accordion-demo-1 .ui-switchable-panel {
+            height: 150px;
+            padding: 3px 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        #accordion-demo-1 .ui-switchable-active h3 {
+            background-position: 0 -14px;
+        }
+
+        #accordion-demo-1 .last-trigger {
+            border-bottom-width: 0
+        }
+
+        #accordion-demo-1 .ui-switchable-active {
+            border-bottom-width: 1px
+        }
+
+        #accordion-demo-1 .last-panel {
+            border-bottom: none
+        }
+        /**-- 手风琴样式 end --**/
+    </style>
+</head>
+<body>
+<div class="container fn-clearfix">
+    <div class="p-left-sidebar-2col" >
+        <a class="logo-link" href="/"><span class="caregg-ico caregg-ico-logo-1"></span></a>
+        <ul class="left-sidebar-menu">
+        </ul>
+    </div>
+    <div class="p-right-sidebar-2col">
+        <div class="p-right-sidebar-2col-inner">
+            <div class="home-header">
+                <span class="o2o-name">运营管理平台</span>
+                <ul class="header-menu">
+                    <li>您好，<span style="color: red">东总公交</span></li>
+                    <li>|</li>
+                    <li>退出</li>
+                    <li>|</li>
+                    <li>设置</li>
+                    <li>|</li>
+                    <li>帮助</li>
+                </ul>
+            </div>
+            <div class="main">
+                <div class="caregg-tab-v7"  id="tab-demo-4" >
+                    <div class="caregg-tab-v7-nav">
+                        <ul>
+                            <li class="cur"><a href="##">首页</a></li>
+                            <li><a href="##">消息</a></li>
+                            <li><a href="##">业务</a></li>
+                        </ul>
+                    </div>
+                    <div class="caregg-tab-v7-main">
+
+                        <div class="caregg-tab-v7-switch">
+                            <div id="accordion-demo-1" class="accordion-demo" data-widget="src/accordion">
+                                <div class="ui-switchable-trigger ui-switchable-active" data-role="trigger"><h3>标题A</h3></div>
+                                <div class="ui-switchable-panel" data-role="panel">
+                                    1、支持鼠标滑过和点击触点两种方式<br/>
+                                    2、支持同时展开多个面板
+                                </div>
+                                <div class="ui-switchable-trigger" data-role="trigger"><h3>标题B</h3></div>
+                                <div class="ui-switchable-panel hidden" data-role="panel">内容B<br/>内容B<br/>内容B</div>
+                                <div class="ui-switchable-trigger" data-role="trigger"><h3>标题C</h3></div>
+                                <div class="ui-switchable-panel hidden" data-role="panel">内容C<br/>内容C<br/>内容C<br/>内容C<br/>内容C</div>
+                                <div class="ui-switchable-trigger last-trigger" data-role="trigger"><h3>标题D</h3></div>
+                                <div class="ui-switchable-panel last-panel hidden" data-role="panel">内容D<br/>内容D<br/>内容D</div>
+                            </div>
+                        </div>
+                        <div class="caregg-tab-v7-switch">
+                            系统玩法
+                        </div>
+                        <div class="caregg-tab-v7-switch">
+                            电子库
+                        </div>
+                        <div class="caregg-tab-v7-switch">
+                            系统玩法对比
+                        </div>
+                        <div class="caregg-tab-v7-switch">
+                            活动玩法对比
+                        </div>
+                        <div class="caregg-tab-v7-switch">
+                            年度最佳6
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Templates Start -->
+<script type="text/template" id="item-template">
+    <span class="caregg-ico caregg-ico-menu-<%= menuItemId %>"><i class="iconfont">&#x359e;</i></span><span class="menu-item-name"><%= menuItemName %></span>
+</script>
+<!-- Templates End -->
+<script>
+    //针对不支持console的浏览器进行处理。免得组里有人写js用console进行调试忘记去掉而报错。
+    (function (window) {
+        if (typeof window.console == "undefined") {
+            window.console = {};
+            var keyword = 'assert,clear,count,debug,dir,drixml,error,exception,group,groupCollapsed,groupEnd,info,log,profile,profileEnd,table,time,timeEnd,timeStamp,trace,warn'.split(",");
+            var i = 0;
+            var len = keyword.length;
+
+            for (; i < len; i++) {
+                window.console[keyword[i]] = function () {
+                };
+            }
+        }
+    })(this);
+</script>
+<script type="text/javascript" src="/public/javascripts/seajs/2.3.0/dist/sea.js"></script>
+<script type="text/javascript" src="/public/javascripts/config.js"></script>
+<script>
+    seajs.use('home');
+</script>
+</body>
+</html>

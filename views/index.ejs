@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js ie ie8"><![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Demo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/public/stylesheets/ico-km-sprite.css" />
+    <link rel="stylesheet" href="/public/stylesheets/base.css"/>
+    <link rel="stylesheet" href="/public/stylesheets/module.css"/>
+    <link rel="stylesheet" href="/public/stylesheets/layout.css"/>
+    <link rel="stylesheet" href="/public/stylesheets/common.css"/>
+</head>
+<body>
+<div class="header" id="header">
+    <div class="header-inner">
+        <div class="banner">
+            <div class="title">
+                <a href="/"><i class="icon-logo"></i>
+                    Demo</a>
+            </div>
+            <div class="nav" id="nav">
+                <ul class="nav-main">
+                    <li class="nav-item">
+                        <a href="/">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/group">模块1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/question">模块2</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="/knowledge">模块3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/knowledge/gameGuide">模块4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/reward">模块5</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/application">模块6</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="user">
+                <div class="info">
+                    <div onmouseout="this.className='f-dropmenu'" onmouseover="this.className='f-dropmenu f-dropmenu-hover'" class="f-dropmenu">
+                        <div class="f-dropmenu-main">
+                            <p class="f-dropmenu-main-title">
+                                <img width="24" height="24" class="avatar" >
+                                <!-- 少于7等于7个中文字时输出 <em></em> -->
+                                <!-- <span class="nickname"><em>用户名用户</em><i title="xx认证" class="icon-w16 icon-v1"></i></span> -->
+                                <!-- 多于7个中文字时输出<em class="nickname-limite"></em> 包住中文名 -->
+	                            <span class="nickname">
+	                            	<em class="">XXX</em>
+	                            	<em class="f-dropmenu-arrow"></em>
+	                            </span>
+                            </p>
+                        </div>
+                        <div class="f-dropmenu-sub" style="position: absolute;width:155px;z-index:100">
+                            <div class="f-dropmenu-sub-ct">
+                                <ul class="f-dropment-sub-list">
+                                    <li><a href="/personal">个人主页</a></li>
+                                    <li><a href="/personal#personalNav=my-data">个人设置</a></li>
+                                    <li><a id="logout" href="javascript:;">退出</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="container-wrap">
+    <div class="container fn-clearfix">
+        <div class="p-left-sidebar-2col" id="info-sidebar">
+
+        </div>
+        <div class="p-right-sidebar-2col">
+            <div class="p-right-sidebar-2col-inner fn-clearfix">
+                <div class="left-sidebar-2col">
+                    <div class="left-sidebar-2col-inner">
+                    </div>
+                </div>
+                <div class="right-sidebar-2col">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <p>深圳XXX技术有限公司©Copyright XXX.com Limited. All rights reserved.</p>
+</div>
+<script>
+    //针对不支持console的浏览器进行处理。免得组里有人写js用console进行调试忘记去掉而报错。
+    (function (window) {
+        if (typeof window.console == "undefined") {
+            window.console = {};
+            var keyword = 'assert,clear,count,debug,dir,drixml,error,exception,group,groupCollapsed,groupEnd,info,log,profile,profileEnd,table,time,timeEnd,timeStamp,trace,warn'.split(",");
+            var i = 0;
+            var len = keyword.length;
+
+            for (; i < len; i++) {
+                window.console[keyword[i]] = function () {
+                };
+            }
+        }
+    })(this);
+</script>
+<script type="text/javascript" src="/public/javascripts/sea-modules/seajs/seajs/2.1.1/sea.js"></script>
+<script type="text/javascript" src="/public/javascripts/config.js"></script>
+</body>
+</html>

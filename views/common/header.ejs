@@ -1,0 +1,103 @@
+<div class="header" id="header">
+    <div class="header-inner">
+        <div class="banner"><!-- banner -->
+            <div class="title">
+                <a href="/"><i class="icon-logo"></i>
+                    KM系统</a>
+            </div>
+            <div class="nav" id="nav">
+                <ul class="nav-main">
+                    <li class="nav-item">
+                        <a href="/">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/group">群组</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/question">问答</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/knowledge">知识库</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/expert">专家</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/knowledge/gameGuide">玩法库</a>
+                    </li>
+                    <% if(settings.company == 1) { %>
+                    <li class="nav-item">
+                        <a href="/reward">悬赏</a>
+                    </li>
+                    <% } %>
+                    <% if(settings.innovateGroupId){ %>
+                    <li class="nav-item" id="nav-item-active">
+                        <a href="/group/<%= settings.innovateGroupId %>">创新</a>
+                    </li>
+                    <% } %>
+
+                    <li class="nav-item">
+                        <a href="/application">应用</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="user">
+                <div class="info">
+                    <div onmouseout="this.className='f-dropmenu'" onmouseover="this.className='f-dropmenu f-dropmenu-hover'" class="f-dropmenu">
+                        <div class="f-dropmenu-main">
+                            <p class="f-dropmenu-main-title">
+                                <img width="24" height="24" class="avatar" src="/personal/<%= session.userId%>/avatar">
+                                <!-- 少于7等于7个中文字时输出 <em></em> -->
+                                <!-- <span class="nickname"><em>用户名用户</em><i title="xx认证" class="icon-w16 icon-v1"></i></span> -->
+                                <!-- 多于7个中文字时输出<em class="nickname-limite"></em> 包住中文名 -->
+	                            <span class="nickname">
+	                            	<em class=""><%= session.userName%></em>
+	                            	<em class="f-dropmenu-arrow"></em>
+	                            </span>
+                            </p>
+                        </div>
+                        <div class="f-dropmenu-sub" style="position: absolute;width:155px;z-index:100">
+                            <div class="f-dropmenu-sub-ct">
+                                <ul class="f-dropment-sub-list">
+                                    <li><a href="/personal">个人主页</a></li>
+                                    <li><a href="/personal#personalNav=my-data">个人设置</a></li>
+                                    <li><a id="logout" href="javascript:;">退出</a></li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="msg-tip">
+                    <div class="msg-site msg-list dropdown">
+                        <a href="javascript:void(0)" id='search-switch' class="a-site msg-list-link" title="搜索"><i class="iconfont search-btn">&#x355d;</i></a>
+                        <div id="search" class="search-box" style="display: none;">
+                            <form id="search-box">
+                                <fieldset>
+                                    <span id="search_wrap" class="right">
+                                        <input type="text" id="search-input" name="search_term" class="" size="17" tabindex="100" placeholder="请输入搜索关键字...">
+                                        <span class="choice ipbmenu clickable" id="search_options">群组</span>
+                                        <ul id="search_options_menucontent" class="ipbmenu_content ipsPad" style="display: none; position: absolute; z-index: 9999;">
+                                            <li class="search-section" style="z-index: 10000;"><strong style="z-index: 10000;">搜索区域:</strong></li>
+                                            <li class="app" style="z-index: 10000;"><label for="s_groups" title="Groups" style="z-index: 10000;"><input type="radio" name="search_app" class="input_radio" id="s_groups" value="1" checked="checked" style="z-index: 10000;">群组</label></li>
+                                            <!--<li class="app" style="z-index: 10000;"><label for="s_experts" title="Experts" style="z-index: 10000;"><input type="radio" name="search_app" class="input_radio" id="s_experts" value="2" style="z-index: 10000;">专家</label></li>-->
+                                            <li class="app" style="z-index: 10000;"><label for="s_questions" title="Questions" style="z-index: 10000;"><input type="radio" name="search_app" class="input_radio" id="s_questions" value="3" style="z-index: 10000;">问答</label></li>
+                                            <li class="app" style="z-index: 10000;"><label for="s_knowledge" title="Knowledge" style="z-index: 10000;"><input type="radio" name="search_app" class="input_radio" id="s_knowledge" value="4" style="z-index: 10000;">知识</label></li>
+                                            <li class="app" style="z-index: 10000;"><label for="s_topic" title="Knowledge" style="z-index: 10000;"><input type="radio" name="search_app" class="input_radio" id="s_topic" value="5" style="z-index: 10000;">话题</label></li>
+                                            <li class="app" style="z-index: 10000;"><label for="s_reward" title="Reward" style="z-index: 10000;"><input type="radio" name="search_app" class="input_radio" id="s_reward" value="6" style="z-index: 10000;">悬赏</label></li>
+                                        </ul>
+                                        <input type="button" id="search-button"  class="submit_input clickable" value="搜">
+                                    </span>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
